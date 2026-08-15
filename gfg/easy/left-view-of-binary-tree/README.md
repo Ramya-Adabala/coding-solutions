@@ -35,7 +35,7 @@ Explanation: From the left side of the tree, only the nodes 1, 2, 4, and 5 are v
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T16:20:33.701Z  
+**Submitted:** 2026-08-15T16:25:02.252Z  
 
 ```java
 class Solution {
