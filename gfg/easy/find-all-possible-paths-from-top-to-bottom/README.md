@@ -37,7 +37,7 @@ n * m < 20
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T13:00:05.529Z  
+**Submitted:** 2026-08-18T13:00:15.750Z  
 
 ```java
 import java.util.ArrayList;
