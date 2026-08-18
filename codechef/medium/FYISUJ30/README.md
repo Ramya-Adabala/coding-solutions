@@ -24,7 +24,7 @@ Run the code, modify values, and explore different driving conditions!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T16:13:08.602Z  
+**Submitted:** 2026-08-18T13:04:39.466Z  
 
 ```java
 class Codechef {
