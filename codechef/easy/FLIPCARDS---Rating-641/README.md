@@ -61,7 +61,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T11:02:29.726Z  
+**Submitted:** 2026-08-19T11:03:14.592Z  
 
 ```java
 import java.util.*;
@@ -78,15 +78,8 @@ class Codechef
 		while(t-->0){
 		    int n=sc.nextInt();
 		    int x=sc.nextInt();
-		    if(x==0){
-		        System.out.println(0);
-		    }
-		    else if(n==x){
-		        System.out.println(0);
-		    }
-		    else{
-		        System.out.println(x);
-		    }
+		    int ans= Math.min(x,n-x);
+		    System.out.println(ans);
 		}
 
 	}
