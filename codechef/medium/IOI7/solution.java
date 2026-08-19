@@ -10,7 +10,7 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int g=sc.nextInt();
-		if(n>g){
+		if(n>=g){
 		    System.out.println("Yes");
 		}
 		else{
