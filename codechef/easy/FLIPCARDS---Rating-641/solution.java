@@ -12,15 +12,8 @@ class Codechef
 		while(t-->0){
 		    int n=sc.nextInt();
 		    int x=sc.nextInt();
-		    if(x==0){
-		        System.out.println(0);
-		    }
-		    else if(n==x){
-		        System.out.println(0);
-		    }
-		    else{
-		        System.out.println(x);
-		    }
+		    int ans= Math.min(x,n-x);
+		    System.out.println(ans);
 		}
 
 	}
