@@ -60,7 +60,7 @@ NORMAL
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T11:15:23.290Z  
+**Submitted:** 2026-08-20T14:15:33.018Z  
 
 ```java
 import java.util.*;
