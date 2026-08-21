@@ -64,8 +64,8 @@ Return the  **index**  of the reachable drone with the  **minimum Manhattan dist
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 46.3 MB (beats 78.82%)  
-**Submitted:** 2026-08-21T10:12:56.330Z  
+**Memory:** 46.4 MB (beats 78.82%)  
+**Submitted:** 2026-08-21T10:13:04.612Z  
 
 ```java
 class Solution {
