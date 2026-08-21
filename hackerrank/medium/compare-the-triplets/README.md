@@ -1,4 +1,4 @@
-# Solve Me First
+# Compare the Triplets
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -63,33 +63,73 @@ The second line contains <em>3</em> space-separated integers, <em>b[0]</em>, <em
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:20:26.078Z  
+**Submitted:** 2026-08-21T13:26:05.586Z  
 
 ```java
 import java.io.*;
-import java.util.*;
-import java.text.*;
 import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
 import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+    /*
+     * Complete the 'compareTriplets' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY a
+     *  2. INTEGER_ARRAY b
+     */
+
+    public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+        int countAlice=0;
+        int countBob=0;
+        for(int i=0;i<3;i++){
+            if(a.get(i)>b.get(i)){
+                countAlice++;
+            }
+            else if(a.get(i)<b.get(i)){
+                countBob++;
+            }
+        }
+        return Arrays.asList(countAlice,countBob);
+    }
+
+}
 
 public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
+        List<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
 
-    static int solveMeFirst(int a, int b) {
-      	// Hint: Type return a+b; below 
-       return a+b;
-   }
+        List<Integer> b = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
 
- public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int a;
-        a = in.nextInt();
-        int b;
-        b = in.nextInt();
-        int sum;
-        sum = solveMeFirst(a, b);
-        System.out.println(sum);
-   }
+        List<Integer> result = Result.compareTriplets(a, b);
+
+        bufferedWriter.write(
+            result.stream()
+                .map(Object::toString)
+                .collect(joining(" "))
+            + "\n"
+        );
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
 }
 
 ```
