@@ -4,30 +4,16 @@
 
 ## Problem
 
-### Using Modulus
-
-What will be the output of the following Java program?
-
-```
-public class Codechef {
-    public static void main(String[] args) {
-        int number = 35;
-        number %= 6; 
-        number %= 4;
-        System.out.println("Final Number: " + number);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T10:35:59.833Z  
+**Submitted:** 2026-08-21T10:35:47.956Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int candies = 25; // Total number of candies
