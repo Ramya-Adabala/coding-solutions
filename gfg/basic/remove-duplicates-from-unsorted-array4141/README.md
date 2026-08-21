@@ -29,7 +29,7 @@ Explanation: There is no duplicate element.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T11:05:18.398Z  
+**Submitted:** 2026-08-21T11:06:02.438Z  
 
 ```java
 class Solution {
