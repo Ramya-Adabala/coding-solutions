@@ -39,7 +39,7 @@ Explanation: Here all elements are even, so no need of segregataion
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T11:16:26.184Z  
+**Submitted:** 2026-08-22T14:28:08.177Z  
 
 ```java
 class Solution {
