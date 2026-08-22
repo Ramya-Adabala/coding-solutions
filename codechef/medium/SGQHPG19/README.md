@@ -4,16 +4,37 @@
 
 ## Problem
 
-_Description not available._
+### Missing part of Code
+
+Fill in the blank with the correct operator to complete the Java program and produce the expected output.
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int tasks = 5;
+        System.out.println(__);
+        System.out.println(tasks);
+    }
+}
+
+```
+
+ **Expected Output** 
+
+```
+4
+4
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T10:46:48.307Z  
+**Submitted:** 2026-08-22T12:22:37.424Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         int stock = 10; // Initial stock count
