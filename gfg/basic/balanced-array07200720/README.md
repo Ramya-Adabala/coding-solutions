@@ -30,7 +30,7 @@ Explanation: Sum of first 3 elements is 1 + 2 + 1 = 4, Sum of last three element
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T10:58:48.683Z  
+**Submitted:** 2026-08-22T14:28:28.175Z  
 
 ```java
 class Solution {
