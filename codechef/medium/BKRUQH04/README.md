@@ -4,16 +4,28 @@
 
 ## Problem
 
-_Description not available._
+### Find the Output
+
+What will be the output of the following Java code snippet?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int result = 10 + 5 * 2 - 8 / 4;
+        System.out.println(result);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:24:15.347Z  
+**Submitted:** 2026-08-23T12:24:38.606Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Define variables
