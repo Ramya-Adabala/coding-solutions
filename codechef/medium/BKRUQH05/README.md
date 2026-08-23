@@ -4,24 +4,16 @@
 
 ## Problem
 
-### Find the output
-
-Given the values a = 20, b = 5, c = 3, and d = 7, what will be the output of the following expression in Java?
-
-```
-int result = a / b * c + d - a % c;
-System.out.println(result);
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** default  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:25:14.664Z  
+**Submitted:** 2026-08-23T12:24:42.486Z  
 
-```cpp
+```default
 class Codechef {
     public static void main(String[] args) {
         // Define variables
