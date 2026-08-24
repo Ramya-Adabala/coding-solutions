@@ -32,7 +32,7 @@ Java Programming
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:40:54.556Z  
+**Submitted:** 2026-08-24T16:40:57.387Z  
 
 ```cpp
 class Codechef {
