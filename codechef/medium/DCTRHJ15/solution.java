@@ -1,13 +1,19 @@
 class Codechef {
     public static void main(String[] args) {
-        // Declaring two string variables
-        String firstName = "John";  // First part of the name
-        String lastName = "Doe";    // Second part of the name
+        // Given Variables
+        String bookTitle = "Book";
+        String authorName = "John Doe";
+        int totalPages = 200;
+        int membershipNumber = 67890;
 
-        // Concatenating the first name and last name with a space
-        String fullName = firstName + " " + lastName;  // Using + operator to concatenate
+        // Print individual details
+        System.out.println("Book Title: " + bookTitle);
+        System.out.println("Author: " + authorName);
+        System.out.println("Total Pages: " + totalPages);
+        System.out.println("Membership Number: " + membershipNumber);
 
-        // Printing the full name
-        System.out.println("Full Name: " + fullName);  // Output: John Doe
+        // Concatenate details into a summary
+        String bookSummary = bookTitle + " by " + authorName + " has " + totalPages + " pages. Borrowed by member #" + membershipNumber + ".";
+        System.out.println("Library Book Summary: " + bookSummary);
     }
 }
