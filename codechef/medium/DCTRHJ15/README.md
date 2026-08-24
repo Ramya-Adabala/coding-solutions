@@ -4,29 +4,57 @@
 
 ## Problem
 
-_Description not available._
+### Library Book Details
+
+Write a program that concatenates library book details, including the book title, author, and the total number of pages, using the `+` operator. The program should also display the library membership number of the user.
+
+```
+bookTitle = "Book";  
+authorName = "John Doe";  
+totalPages = 200;  
+membershipNumber = 67890;  
+
+```
+
+ **Expected Output:** 
+
+```
+Book Title: Book  
+Author: John Doe  
+Total Pages: 200  
+Membership Number: 67890  
+Library Book Summary: Book by John Doe has 200 pages. Borrowed by member #67890.
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:28:38.535Z  
+**Submitted:** 2026-08-24T16:37:24.326Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Declaring two string variables
-        String firstName = "John";  // First part of the name
-        String lastName = "Doe";    // Second part of the name
+        // Given Variables
+        String bookTitle = "Book";
+        String authorName = "John Doe";
+        int totalPages = 200;
+        int membershipNumber = 67890;
 
-        // Concatenating the first name and last name with a space
-        String fullName = firstName + " " + lastName;  // Using + operator to concatenate
+        // Print individual details
+        System.out.println("Book Title: " + bookTitle);
+        System.out.println("Author: " + authorName);
+        System.out.println("Total Pages: " + totalPages);
+        System.out.println("Membership Number: " + membershipNumber);
 
-        // Printing the full name
-        System.out.println("Full Name: " + fullName);  // Output: John Doe
+        // Concatenate details into a summary
+        String bookSummary = bookTitle + " by " + authorName + " has " + totalPages + " pages. Borrowed by member #" + membershipNumber + ".";
+        System.out.println("Library Book Summary: " + bookSummary);
     }
 }
+
 ```
 
 ---
