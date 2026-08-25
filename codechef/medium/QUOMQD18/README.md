@@ -20,7 +20,7 @@ Year: 2025
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:24:40.922Z  
+**Submitted:** 2026-08-25T14:37:33.073Z  
 
 ```java
 class Codechef {
