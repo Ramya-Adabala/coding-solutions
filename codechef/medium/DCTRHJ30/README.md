@@ -4,49 +4,46 @@
 
 ## Problem
 
-### MCQ - String Comparison with equals
+### Flight Status Comparison
 
-What will be the output of the following Java code snippet?
+Write a program to compare the status of two flights using the `.equals()` method.
+The program should store two flight status values, along with the flight number and duration.
+Then, it should print the details and check if both flight statuses match.
+
+ **Expected Output:** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        String greeting1 = "Hello, World!";
-        String greeting2 = new String("Hello, World!"); 
-        String greeting3 = "hello, world!";
-        
-        boolean result1 = greeting1.equals(greeting2);
-        boolean result2 = greeting1.equals(greeting3);
-        
-        System.out.println(result1);
-        System.out.println(result2);
-    }
-}
+Flight Number: 1023  
+Flight Duration: 2.5 hours  
+Flight status match: false  
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:01:25.569Z  
+**Submitted:** 2026-08-25T14:03:21.361Z  
 
-```cpp
+```java
+// This class demonstrates the use of statements and semicolons in Java.
 class Codechef {
-    public static void main(String[] args) {
-        // Declaring and initializing strings
-        String str1 = "Good Morning";
-        String str2 = "Good Morning";
-        String str3 = "Good Evening";
 
-        // Comparing strings using equals()
-        boolean isEqual1 = str1.equals(str2); // Comparing str1 and str2
-        boolean isEqual2 = str1.equals(str3); // Comparing str1 and str3
-             
-        // Printing the results
-        System.out.println("Is str1 equal to str2? " + isEqual1); // Output: true
-        System.out.println("Is str1 equal to str3? " + isEqual2); // Output: false
+    // The main method serves as the entry point for the program.
+    public static void main(String[] args) {
+        
+        // Flight details
+        String flightStatus1 = "On Time";
+        String flightStatus2 = "Delayed";
+        int flightNumber = 1023;
+        double flightDuration = 2.5;
+
+        // Complete the below code
+        boolean statusMatch = flightStatus1.equals(flightStatus2);
+        System.out.println("Flight Number: "+ flightNumber);
+        System.out.println("Flight Duration: "+flightDuration + "hours");
+        System.out.println("Flight status match: "+statusMatch);
     }
 }
 ```
