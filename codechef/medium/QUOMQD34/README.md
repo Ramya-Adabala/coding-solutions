@@ -1,0 +1,36 @@
+# QUOMQD34
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** Java  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-08-26T09:26:57.889Z  
+
+```java
+class Codechef {
+    public static void main(String[] args) {
+        
+        // This is the log message where we want to search for the substring "Error"
+        String log = "Error: File not found. Error: Permission denied.";
+
+        // This method searches for the substring starting from the end of the string and moves backward
+        int lastIndexOfError = log.lastIndexOf("Error");
+
+        // Display the index of the last occurrence of the substring "Error"
+        System.out.println("The last occurrence of 'Error' is at index: " + lastIndexOfError);
+
+    }
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/QUOMQD34)
