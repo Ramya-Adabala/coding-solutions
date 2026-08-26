@@ -1,14 +1,15 @@
 class Codechef {
     public static void main(String[] args) {
-        // Define a string
-        String text = "Version 2.0";
+        String sentence = "apple pie";
 
-        // Find the index of the first occurrence of the digit '2'
-        int indexOfDigit=text.indexOf('2');
+        // Find the indices of 'p' and 'e'
+        int indexOfP =sentence.indexOf('p');
+        int indexOfE = sentence.indexOf('e');
 
+        // Compare indices using relational operators
+        boolean isPBeforeE =indexOfP<indexOfE;
 
-        // Print the result
-        System.out.println("The index of '2' is: " + indexOfDigit);
-
+        // Print the comparison result
+System.out.println("Is 'p' before 'e'? " + isPBeforeE);
     }
 }
