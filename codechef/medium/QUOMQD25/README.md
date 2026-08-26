@@ -4,28 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Find and Compare Positions of Two Characters
+
+Write a program to check whether the character `'p'` appears before the character `'e'` in a given string. The program should find the indices of both characters, compare them using relational operators, and display the result.
+
+```
+String sentence = "apple pie";
+
+```
+
+The program should  **compare the positions**  of `'p'` and `'e'` in the string and print whether `'p'` appears before `'e'`.
+
+ **Expected Output:** 
+
+```
+Is 'p' before 'e'? true
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T03:51:49.170Z  
+**Submitted:** 2026-08-26T03:52:49.701Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Define a string
-        String text = "Version 2.0";
+        String sentence = "apple pie";
 
-        // Find the index of the first occurrence of the digit '2'
-        int indexOfDigit=text.indexOf('2');
+        // Find the indices of 'p' and 'e'
+        int indexOfP =sentence.indexOf('p');
+        int indexOfE = sentence.indexOf('e');
 
+        // Compare indices using relational operators
+        boolean isPBeforeE =indexOfP<indexOfE;
 
-        // Print the result
-        System.out.println("The index of '2' is: " + indexOfDigit);
-
+        // Print the comparison result
+System.out.println("Is 'p' before 'e'? " + isPBeforeE);
     }
 }
 
