@@ -1,13 +1,9 @@
 class Codechef {
     public static void main(String[] args) {
-        String filePath = "/home/user/documents/file.txt";
-
-        // Extract the file name (substring from index 21 to 29)
-        String fileName = filePath.substring(21,29);
-
-        // Print the extracted file name
-        System.out.println("File Name: " + fileName);
-
+        
+        // write your code here
+        String productDescription = "Laptop HP Pavilion";
+        String brand=productDescription.substring(7,9);
+        System.out.println(brand);
     }
 }
-
