@@ -3,7 +3,7 @@ class Codechef {
         
         String description = "This shirt is available in multiple colours.";
         description=description.replace("colours","color");
-       System.out.println(description);
+       System.out.println(description.toUpperCase());
         
 
     }
