@@ -29,7 +29,7 @@ Explanation: Only Distinct element is 5. So sum is 5.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T11:32:14.422Z  
+**Submitted:** 2026-08-27T04:23:24.438Z  
 
 ```java
 // User function Template for Java
