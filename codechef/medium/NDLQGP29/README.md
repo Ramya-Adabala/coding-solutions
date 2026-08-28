@@ -26,7 +26,7 @@ Minutes: 30
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:17:26.734Z  
+**Submitted:** 2026-08-28T07:19:03.346Z  
 
 ```java
 class Codechef {
