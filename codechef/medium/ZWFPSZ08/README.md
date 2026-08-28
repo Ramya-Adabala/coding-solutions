@@ -28,7 +28,7 @@ Subscribed: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T09:31:30.632Z  
+**Submitted:** 2026-08-28T09:32:01.952Z  
 
 ```java
 import java.util.Scanner; // Import Scanner for user input
