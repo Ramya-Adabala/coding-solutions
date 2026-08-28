@@ -4,16 +4,34 @@
 
 ## Problem
 
-_Description not available._
+### Generating a Unique Order Reference Code
+
+An e-commerce system assigns a unique order reference code for each transaction. Complete the missing part of the code using the join() method in Java to generate the correct order reference.
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        String customerID = "C12345";
+        String orderNumber = "ORD6789";
+        String productCategory = "Electronics";
+        String orderDate = "2025-03-12";
+        
+        String orderReference = ____________ ; // Join elements with "hyphen (-)"
+
+        System.out.println("Order Reference: " + orderReference);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T08:47:47.985Z  
+**Submitted:** 2026-08-28T08:48:29.348Z  
 
-```java
+```cpp
 class Codechef{
     public static void main(String[] args) {
 
