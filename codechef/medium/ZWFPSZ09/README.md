@@ -4,23 +4,34 @@
 
 ## Problem
 
-### News letter Subscription
+### Weather Info
 
-In this example, we demonstrate how to take user input for subscription status, store it in a `boolean` variable, and display the result. Using a `boolean` variable allows us to handle `true/false` values, making it ideal for representing user choices like subscription preferences.
+A weather monitoring system collects  **temperature, humidity, and rain prediction**  from user input. Complete the program by filling in the missing parts to ensure it correctly retrieves and displays the weather details.
 
-When executed, the program will display whether the user is subscribed or not based on the input.
+ **Input:** 
+
+- A float representing the temperature.
+- A double representing the humidity percentage.
+- A boolean representing whether rain is expected.
+
+Run the code, modify values, and verify that it correctly captures different weather conditions!
 
 ### Sample 1:
 Input
 Output
 
 ```
-true
+28.5  
+72.3  
+false 
 ```
 
 ```
-Subscription Status:
-Subscribed: true
+Weather Information:
+Temperature: 28.5°C
+Humidity: 72.3%
+Rain Expected: false
+
 ```
 
 ## Solution
@@ -28,22 +39,30 @@ Subscribed: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T09:32:03.876Z  
+**Submitted:** 2026-08-28T09:34:43.797Z  
 
 ```java
-import java.util.Scanner; // Import Scanner for user input
+import java.util.Scanner;
 
 class Codechef {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the user
+        // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
 
-        // Read the input as a boolean and store it
-        boolean isSubscribed = scanner.nextBoolean(); // Input: true or false
+        // Collect the temperature as a float
+  float temperature=scanner.nextFloat();
 
-        // Display subscription status
-        System.out.println("\nSubscription Status:");
-        System.out.println("Subscribed: " + isSubscribed);
+        // Collect the humidity percentage as a double
+       double humidity=scanner.nextDouble();
+
+        // Collect the rain prediction as a boolean
+boolean willRain=scanner.nextBoolean();
+
+        // Display the collected weather details
+        System.out.println("Weather Information:");
+        System.out.println("Temperature: " + temperature + "°C");
+        System.out.println("Humidity: " + humidity + "%");
+        System.out.println("Rain Expected: " + willRain);
 
         // Close the Scanner object
         scanner.close();
