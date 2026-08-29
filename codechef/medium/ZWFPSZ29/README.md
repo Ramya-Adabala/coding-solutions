@@ -4,16 +4,43 @@
 
 ## Problem
 
-_Description not available._
+### replace() Method
+
+How does the `replace()` method help in formatting user input?
+
+```
+import java.util.Scanner;
+
+class Codechef {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String userInput = scanner.nextLine();
+        
+        String formattedInput = userInput.replace("-", "_");
+        
+        System.out.println("Formatted Output: " + formattedInput);
+        
+        scanner.close();
+    }
+}
+
+```
+
+If the user enters:
+
+```
+Java-Programming
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T15:55:44.142Z  
+**Submitted:** 2026-08-29T15:55:56.495Z  
 
-```java
+```cpp
 import java.util.Scanner; 
 
 class Codechef {
