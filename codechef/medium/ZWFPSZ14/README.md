@@ -4,34 +4,36 @@
 
 ## Problem
 
-### Storing a Single Character
+### Personal Information Form
 
-A Java program needs to capture a single character entered by the user. What is the correct way to achieve this?
+In this example, we demonstrate how to capture different types of string inputs in Java using the `Scanner` class. The program collects a `single-word string`, `a full-line string`, and `a single character`, showcasing how to handle various user inputs efficiently.
+
+### Sample 1:
+Input
+Output
 
 ```
-import java.util.Scanner;
-class Codechef {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+Alice  
+Alice Johnson  
+J  
+```
 
-        char character = scanner.______(); 
-
-        System.out.println("You entered: " + character);
-
-        scanner.close();
-    }
-}
+```
+Personal Information:
+First Name: Alice
+Full Name: Alice Johnson  
+Favorite Letter: J
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T02:39:13.191Z  
+**Submitted:** 2026-08-29T02:39:06.560Z  
 
-```cpp
+```java
 import java.util.Scanner; 
 
 class Codechef {
