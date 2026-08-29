@@ -49,9 +49,9 @@ The total cost is 6.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.6 MB  
-**Submitted:** 2026-08-29T16:27:07.743Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 44.9 MB (beats 40.34%)  
+**Submitted:** 2026-08-29T16:27:13.165Z  
 
 ```java
 class Solution {
