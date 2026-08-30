@@ -4,14 +4,61 @@
 
 ## Problem
 
-_Description not available._
+### Distributing Books Evenly
+
+A school is distributing books among students. Write a program that takes user input for the total number of books and the number of students. Use division (`/`) to calculate how many books each student will receive and modulus (`%`) to determine if any books remain undistributed.
+
+ **Input:** 
+
+- An integer representing the total number of books.
+- An integer representing the number of students.
+### Sample 1:
+Input
+Output
+
+```
+20
+5
+```
+
+```
+Each student gets 4 books equally.
+
+```
+
+### Sample 2:
+Input
+Output
+
+```
+23
+5
+```
+
+```
+Each student gets 4 books, but 3 books remain undistributed.
+
+```
+
+### Sample 3:
+Input
+Output
+
+```
+19
+5
+```
+
+```
+Each student gets 3 books, but 4 books remain undistributed.
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:16:23.269Z  
+**Submitted:** 2026-08-30T05:30:31.247Z  
 
 ```java
 import java.util.*;
