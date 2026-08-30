@@ -58,7 +58,7 @@ Each student gets 3 books, but 4 books remain undistributed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:16:09.711Z  
+**Submitted:** 2026-08-30T05:30:28.634Z  
 
 ```java
 import java.util.*;
