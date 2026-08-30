@@ -4,33 +4,69 @@
 
 ## Problem
 
-_Description not available._
+### Calling a function within function
+
+Listen
+
+Functions can also call other functions in Python.
+
+Check the sample code given below
+
+```
+# Function to calculate the square of a number
+def square(num):
+    return num * num
+
+def square_and_double(num):
+    # Call the square function to calculate square
+    squared = square(num)
+
+    # Double the squared result
+    return 2 * squared
+
+# Call the square_and_double function with the argument 3
+result = square_and_double(3)
+
+print("Result:", result)     # Output will be 'Result: 18'
+
+```
+
+### Task
+- The editor contains an incomplete code.
+- Update the function greet_and_capitalize by calling the above defined functions inside it to get the expected output.
+
+ **Expected output** 
+
+```
+Final Result: HELLO, ALICE!
+
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T06:01:14.400Z  
+**Submitted:** 2026-08-30T06:12:20.216Z  
 
 ```py
-# Click on submit to see the result
+def greet(name):
+    return f"Hello, {name}!"
 
-# Global variable
-x = 10
+def capitalize(text):
+    return text.upper()
 
-def my_function():
-    # Local variable with the same name as the global variable
-    x = 20
-    
-    # Accesses the local variable
-    print(x)
+# Solution as follows
+def greet_and_capitalize(name):
+    greeting = greet(name)
+    return capitalize(greeting)
 
-my_function()
-# Output: 20
+# Call the functions
+name = "Alice"
+final_result = greet_and_capitalize(name)
 
-print(x)
-# Output: 10 (global variable is not affected)
+# Display the results
+print("Final Result:", final_result)
 
 ```
 
