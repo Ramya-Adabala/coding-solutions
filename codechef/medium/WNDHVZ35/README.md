@@ -49,7 +49,7 @@ You need to wait 10 more years to qualify.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T06:13:35.157Z  
+**Submitted:** 2026-08-31T04:45:16.008Z  
 
 ```java
 import java.util.*;
