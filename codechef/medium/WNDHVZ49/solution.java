@@ -2,17 +2,24 @@ import java.util.*;
 
 class Codechef {
     public static void main(String[] args) {
-        // Variables representing waiver conditions
-        boolean isSeniorCitizen = false;
-        boolean hasMembership = true;
+        // Predefined emergency access codes
+        int emergencyKeycode = 4321;
+        int overrideCode = 9999;
 
-        // Check if the user qualifies for a late fee waiver
-        if (isSeniorCitizen || hasMembership) {
-            System.out.println("Your late fee is waived.");
+        // Take user input
+        Scanner sc=new Scanner(System.in);
+       
+        int code=sc.nextInt();
+        
+
+
+        // Checking if the entered code matches either emergencyKeycode or overrideCode
+        if ( emergencyKeycode==code || overrideCode==code ) {  // Fill in the blanks
+            System.out.println("Access Granted: Emergency Entry Allowed. "); // Fill in the blank
         } else {
-            System.out.println("You need to pay the late fee.");
+            System.out.println("Access Denied: Invalid Code."); // Fill in the blank
         }
 
-        System.out.println("Library fee check completed.");
+
     }
 }
