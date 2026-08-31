@@ -4,26 +4,38 @@
 
 ## Problem
 
-### Worked Example - Online Exam Eligibility
+### Student Exam Eligibility Check
 
-In this example, we demonstrate how to use an if-else statement with the logical && operator to check if a student is eligible to take an online exam. This method helps in understanding multiple conditions using and in Java.
-
- **When executed, the code will show:** 
+A university requires students to meet multiple conditions to be eligible for final exams. A student must have at least  **75% attendance**  and a  **minimum score of 40 marks**  in internal assessments to be allowed to take the exam.
 
 ```
-You are eligible to take the exam.  
-Eligibility check completed.  
+import java.util.*;
+
+class Codechef {
+    public static void main(String[] args) {
+        int attendancePercentage = 80;
+        int internalMarks = 45;
+
+        if (_____) {  // Fill in the blank
+            System.out.println("Student is eligible for the final exam.");
+        } else {
+            System.out.println("Student is not eligible for the final exam.");
+        }
+    }
+}
 
 ```
+
+Choose the correct condition to replace `_____` to ensure the correct eligibility?
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T04:47:58.848Z  
+**Submitted:** 2026-08-31T04:48:17.324Z  
 
-```java
+```cpp
 import java.util.*;
 
 class Codechef {
