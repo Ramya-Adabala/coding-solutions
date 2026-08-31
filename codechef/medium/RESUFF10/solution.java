@@ -35,7 +35,7 @@ class Codechef {
         // If the entered hour is invalid (not between 0 and 23)
 
   else{
-      System.out.println("Invalid hour");
+      System.out.println("Invalid hour entered");
   }
 
 
