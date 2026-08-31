@@ -50,7 +50,7 @@ Good afternoon!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T05:30:38.309Z  
+**Submitted:** 2026-08-31T05:31:43.500Z  
 
 ```java
 import java.util.Scanner; // Import the Scanner class to read input from the user
@@ -90,7 +90,7 @@ class Codechef {
         // If the entered hour is invalid (not between 0 and 23)
 
   else{
-      System.out.println("Invalid hour");
+      System.out.println("Invalid hour entered");
   }
 
 
