@@ -1,4 +1,4 @@
-# Find All Numbers Disappeared in an Array
+# Q3. Find All Numbers Disappeared in an Array
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 
@@ -39,9 +39,9 @@ Output: [2]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 7 ms (beats 51.85%)  
-**Memory:** 67.1 MB (beats 63.58%)  
-**Submitted:** 2026-08-26T10:13:36.162Z  
+**Runtime:** 0 ms  
+**Memory:** 42.5 MB  
+**Submitted:** 2026-08-31T06:16:20.940Z  
 
 ```java
 class Solution {
