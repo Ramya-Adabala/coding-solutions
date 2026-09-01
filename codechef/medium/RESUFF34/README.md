@@ -73,7 +73,7 @@ Invalid weather condition code. Please enter 1, 2, 3, or 4.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T13:01:23.305Z  
+**Submitted:** 2026-09-01T13:01:33.335Z  
 
 ```java
 import java.util.Scanner;
