@@ -55,7 +55,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:33:05.367Z  
+**Submitted:** 2026-09-02T14:33:38.134Z  
 
 ```java
 import java.util.*;
@@ -69,7 +69,7 @@ class Codechef
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int s=sc.nextInt();
-		
+		System.out.println(10-s);
 
 	}
 }
