@@ -33,7 +33,7 @@ Warning! Only 1.0 liter of fuel left. Refuel soon!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:46:38.731Z  
+**Submitted:** 2026-09-02T02:45:38.210Z  
 
 ```java
 class Codechef {
