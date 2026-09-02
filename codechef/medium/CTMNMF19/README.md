@@ -4,40 +4,86 @@
 
 ## Problem
 
-_Description not available._
+### Print Even Numbers Using a While Loop
+
+A Java program that prints all  **even numbers**  from  **2**  up to a given number (**n**) using a  **while loop**.
+
+ **Input:** 
+Take input of n from user.
+
+### Sample 1:
+Input
+Output
+
+```
+10
+```
+
+```
+Even numbers from 2 to 10:
+2
+4
+6
+8
+10
+
+```
+
+### Sample 2:
+Input
+Output
+
+```
+2
+```
+
+```
+Even numbers from 2 to 2:
+2
+```
+
+### Sample 3:
+Input
+Output
+
+```
+1
+```
+
+```
+ 
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:47:17.637Z  
+**Submitted:** 2026-09-02T02:51:01.738Z  
 
 ```java
+import java.util.*;
 class Codechef {
     public static void main(String[] args) {
-        // Define the maximum number limit for the calculation
-        int maxNumber = 20; 
+        
+        //Take input of n from user
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        
+        int number = 2; // Starting with the first even number
+        
+        System.out.println("Even numbers from 2 to " + n + ":");
+        
+        while (number <= n) {  // Continue loop until number is less than or equal to n
+          
+               System.out.println(number);
+           number+=2;
 
-        // Initialize sum to store the total sum of numbers
-        int sum = 0; 
 
-        // Start from 1 as the first number in the sequence
-        int currentNumber = 1;  
-
-        // While loop to iterate as long as currentNumber is less than or equal to maxNumber
-        while (currentNumber <= maxNumber) {
-            // Add the current number to the sum
-            sum += currentNumber;  
-
-            // Move to the next third number by incrementing by 3
-            currentNumber += 3;    
         }
-
-        // Print the final sum of every third number up to the given maxNumber
-        System.out.println("The sum of every third number up to " + maxNumber + " is: " + sum);
     }
 }
+
 
 ```
 
