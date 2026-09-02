@@ -1,32 +1,43 @@
-import java.util.Scanner;
+import java.util.Scanner; // Import Scanner class for user input
 
 class Codechef {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-       
-        int weatherCode = scanner.nextInt(); //User Input 
+        Scanner scanner = new Scanner(System.in); // Create Scanner object for input
 
-        // Switch statement to determine the weather condition
-        switch (weatherCode) {
-            case 1: // Case for Sunny
-                System.out.println("It's sunny! Wear light clothes and don't forget sunscreen.");
-                break; // Exit the switch statement after executing this case
+        // Display menu options
+        System.out.println("Welcome to the Restaurant! Please select a dish:");
+        System.out.println("1. Pasta");
+        System.out.println("2. Burger");
+        System.out.println("3. Salad");
+        System.out.println("4. Dessert");
 
-            case 2: // Case for Rainy
-                System.out.println("It's rainy! Bring an umbrella and wear waterproof clothes.");
-                break; // Exit the switch statement after executing this case
+        // Read user input for menu choice
+        int choice = scanner.nextInt();
 
-            case 3: // Case for Snowy
-                System.out.println("It's snowy! Wear warm layers and snow boots.");
-                break; // Exit the switch statement after executing this case
+        String dish; // Variable to store the selected dish
 
-            case 4: // Case for Windy
-                System.out.println("It's windy! Wear a windbreaker and avoid loose clothing.");
-                break; // Exit the switch statement after executing this case
+        // Determine the dish based on the menu selection using switch statement
+        switch(choice){
+            case 1:
+                dish="Pasta";
+                break;
+            case 2:
+                dish="Burger";
+                break;
+            case 3:
+                dish="Salad";
+                break;
+            case 4:
+                dish="Dessert";
+                break;
+            default:
+            dish="Invalid choice. Please select a valid menu option.";
+            break;
+          
+        
+}// Output the selected dish or error message
+        System.out.println("You selected: " + dish);
 
-            default: // Case for invalid weather condition code
-                System.out.println("Invalid weather condition code. Please enter 1, 2, 3, or 4.");
-                break; // Exit the switch statement
-        }
+        scanner.close(); // Close the Scanner object
     }
 }
