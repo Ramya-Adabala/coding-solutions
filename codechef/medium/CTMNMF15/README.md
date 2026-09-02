@@ -4,34 +4,81 @@
 
 ## Problem
 
-_Description not available._
+### Water Tank Level Monitoring System
+
+A building's water tank needs to be monitored to ensure it doesn’t run empty.
+The system should start with a user-defined water level (in liters) and decrease it by  **1 liter per cycle**  as water is used.
+The system should stop when the water level reaches  **10 liters**, prompting a  **refill alert**.
+
+ **Steps to Complete:** 
+
+- Ask the user to input the initial water level (in liters).
+- Store the input in a double variable called waterLevel.
+- Use a while loop to reduce the water level by 1 liter in each iteration.
+- When the water level reaches 10 liters, stop the loop and display a warning message asking to refill the tank.
+### Sample 1:
+Input
+Output
+
+```
+15
+```
+
+```
+Water level: 15.0 liters.
+Water level: 14.0 liters.
+Water level: 13.0 liters.
+Water level: 12.0 liters.
+Water level: 11.0 liters.
+Warning! Water level is low (10 liters). Please refill the tank!
+```
+
+### Sample 2:
+Input
+Output
+
+```
+10
+```
+
+```
+Warning! Water level is low (10 liters). Please refill the tank!
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:45:39.952Z  
+**Submitted:** 2026-09-02T02:46:57.472Z  
 
 ```java
+import java.util.*;
+
 class Codechef {
     public static void main(String[] args) {
         
-        double fuel = 7.0; // Initialize fuel level
-
-        // Start while loop to monitor fuel
-        while ( fuel>1.0 ) {    /* Fill in the missing condition */
-            System.out.println("Fuel remaining: " + fuel + " liters.");    /* Print remaining fuel message */
-
-            // Reduce fuel by 1.0 liter
-            fuel-=1.0;    // Fill in the missing logic
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object for input
+        
+        // Ask the user to enter the initial water level
+        // Read the user input as a double value
+        double waterLevel = scanner.nextDouble(); 
+        
+        // Start while loop to decrease water level
+        while (waterLevel > 10) {  
+            
+            System.out.println("Current water level: " + waterLevel + " liters."); // Display remaining water
+            
+            // Reduce water level by 10 liters in each iteration
+            waterLevel--; 
         }
 
-        // Print low fuel warning
-        System.out.println("Warning! Only 1.0 liter of fuel left. Refuel soon!");  
+        // Alert user when only 10 liters remain
+        System.out.println("Warning! Water level is low (10 liters). Please refill the tank!");
+        
+        scanner.close(); // Close the Scanner
     }
 }
-
 ```
 
 ---
