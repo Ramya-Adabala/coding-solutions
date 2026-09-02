@@ -11,6 +11,8 @@ class Codechef
 		int t=sc.nextInt();
 		while(t-->0){
 		    int n=sc.nextInt();
+		    int cost=(n/2)*30+(n%2)*20;
+		    System.out.println(cost);
 		}
 
 	}
