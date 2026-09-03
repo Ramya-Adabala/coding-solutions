@@ -4,16 +4,41 @@
 
 ## Problem
 
-_Description not available._
+### MCQ - Flag-Controlled While Loop
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        boolean found = false; // Flag variable
+        int number = 10; // Starting number
+
+        // Flag-controlled loop: runs until a number greater than 50 is found
+        while (!found) {
+            System.out.println("Checking: " + number);
+
+            if (number > 50) {
+                found = true; // Set flag to true to exit loop
+            }
+
+            number++; // Increment number
+        }
+
+        System.out.println("First number greater than 50 found: " + number);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T04:28:08.865Z  
+**Submitted:** 2026-09-03T04:28:45.974Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         boolean foundMultiple = false; // Flag to control loop
