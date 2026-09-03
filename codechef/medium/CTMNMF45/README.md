@@ -55,7 +55,7 @@ $1^2 + 2^2 + 3^2 + 4^2$ = 30
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T01:21:41.758Z  
+**Submitted:** 2026-09-03T04:16:39.024Z  
 
 ```java
 import java.util.Scanner;
