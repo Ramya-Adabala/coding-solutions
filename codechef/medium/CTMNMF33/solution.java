@@ -6,7 +6,7 @@ class Codechef {
         {
              System.out.println("Server is running");
              //Write break; below
-             
+             System.out.println("Server is running");
              break;
              
         }
