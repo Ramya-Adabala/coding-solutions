@@ -13,12 +13,12 @@ To get AC (Accepted) in this problem, use break inside the while loop — it imm
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T01:14:51.156Z  
+**Submitted:** 2026-09-03T01:14:54.073Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
      
@@ -28,7 +28,7 @@ class Codechef {
              System.out.println("Server is running");
              //Write break; below
              System.out.println("Server is running");
-             
+             break;
              
         }
     
