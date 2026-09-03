@@ -16,20 +16,22 @@ To get AC (Accepted) in this problem, use break inside the while loop — it imm
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:53:21.620Z  
+**Submitted:** 2026-09-03T01:14:51.156Z  
 
 ```cpp
 class Codechef {
     public static void main(String[] args) {
-        int num = 10; // Start checking from 10
-
-        while (num <= 20) { // Loop runs until 20
-            if (num % 3 == 0) { // Check if num is a multiple of 3
-                System.out.println("First multiple of 3 found: " + num);
-                break; // Exit the loop once found
-            }
-            num++; // Increment num to check the next number
+     
+       // This infinite loop simulates a continuously running server.
+        while(true)
+        {
+             System.out.println("Server is running");
+             //Write break; below
+             System.out.println("Server is running");
+             
+             
         }
+    
     }
 }
 
