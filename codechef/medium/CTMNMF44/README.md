@@ -4,46 +4,29 @@
 
 ## Problem
 
-### Electricity Bill Processing
+### Worked Example - Skipping Multiples in While Loop
 
-What will be the output of the below code?
+In this example, we demonstrate how to use a  **while loop with continue**  to iterate through numbers from  **1 to 10**, while skipping  **even numbers (multiples of 2).** 
+
+ **When executed, the code will show:** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        int unit = 1;
-
-        while (unit <= 10) {
-            unit++;
-            
-            if(unit>10)
-            {
-                break;
-            }
-            
-            if (unit % 2 == 0) {
-                continue;
-            }
-
-            if (unit == 9) {
-                System.out.println("High consumption alert at unit: " + unit);
-            } else {
-                System.out.println("Processing unit: " + unit);
-            }
-        }
-    }
-}
+1  
+3  
+5  
+7  
+9  
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T01:16:04.389Z  
+**Submitted:** 2026-09-03T01:15:41.675Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int i = 1; // Initialize counter
