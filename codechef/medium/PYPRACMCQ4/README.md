@@ -15,7 +15,7 @@ Currently there are courses for 4 languages, and hence there are 8 courses in th
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T05:41:08.912Z  
+**Submitted:** 2026-09-04T05:41:11.005Z  
 
 ```cpp
 # cook your dish here
