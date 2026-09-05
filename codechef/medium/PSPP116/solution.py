@@ -1,11 +1,14 @@
-# Update the code below to get the necessart output
-
 student_info = {"name": "Alice", "age": 25, "course": "Python"}
 
-# Adding a new key-value pair
-student_info["location"]="New York"
+# Using del to remove a specific key-value pair
+del student_info["course"]
+print(student_info)
 
-# Modifying an existing value
-student_info["age"]=26
+# Using pop() to remove and retrieve a specific key-value pair
+removed_age = student_info.pop("age")
+
+# Using clear() to clear all key-value pairs
+student_info.clear()
 
 print("Updated Student Info:", student_info)
+print("Removed Age:", removed_age)
