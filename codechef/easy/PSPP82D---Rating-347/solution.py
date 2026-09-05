@@ -1,18 +1,20 @@
-# Update the code below to solve the problem
+# Debug the code below to solve the problem
+def multiply(a, b):
+    return(a*b)
 
-def square(t):
-    value1=t*t
-    return value1
-
-
+def sum(x, y):
+    return(x+y)
     
-def half(i):
-    value2=i//2
-    return value2
- 
- 
- 
-n = int(input())
-result1 = square(n)
-result2 = half(result1)
-print(result2)
+def abs_diff(a,b):
+    if a > b:
+        return(a - b)
+    else:
+        return(b - a)
+
+
+
+A, B = map(int, input().split())
+C = multiply(A, B)
+D = sum(A, B)
+E = abs_diff(C, D)
+print(E)
