@@ -4,16 +4,40 @@
 
 ## Problem
 
-_Description not available._
+### Instance Variables in Java - Output Based Question
+
+What will be the output of the following code, which demonstrates the usage of instance variables in Java?
+
+```
+class Student {
+    String name = "John";  // Instance variable
+    int age = 26; // Instance variable
+
+    public void display() {
+        System.out.println(name); 
+    }
+}
+
+class Codechef {
+    public static void main(String[] args) {
+        Student student1 = new Student(); 
+        Student student2 = new Student(); 
+
+        student1.display(); 
+        student2.age();  
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T09:54:49.307Z  
+**Submitted:** 2026-09-05T09:55:32.196Z  
 
-```java
+```cpp
 // Class representing a student using instance variables
 class Codechef {
     // Step 1: Declare instance variables (fields)
