@@ -42,7 +42,7 @@ Review the code on IDE and click on 'Submit' to see the result.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T10:13:12.949Z  
+**Submitted:** 2026-09-06T05:16:14.167Z  
 
 ```py
 student_info = {"name": "Alice", "age": 25, "course": "Python"}
