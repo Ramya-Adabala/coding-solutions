@@ -4,21 +4,55 @@
 
 ## Problem
 
-_Description not available._
+### Delete From
+
+Listen
+
+The  **DELETE FROM**  statement is used to remove one or multiple rows from a table.
+You can use the statement when you want to delete existing records.
+
+Below is the query to delete all rows in the student table with student_id - 08 (table added below for reference).
+
+```
+DELETE FROM  student
+WHERE student_id = 08;
+
+```
+
+### Task
+
+Write a query which does the following
+
+- Delete all rows in the employee table whose Department is 'Hr'.
+- Output all the entires of the table
+- Original table has the following rows
+
+```
+┌─────────────┬────────────────┬────────────┐
+│ Employee_id │ Employee_Name  │ Department │
+├─────────────┼────────────────┼────────────┤
+│ 1           │ Kayla Thompson │ Sales      │
+│ 2           │ Ethan Chen     │ Operations │
+│ 3           │ Julia Lee      │ Hr         │
+│ 4           │ Marcus Garcia  │ Product    │
+└─────────────┴────────────────┴────────────┘
+
+```
+
+Code it out in the IDE.
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T04:56:13.800Z  
+**Submitted:** 2026-09-06T04:57:42.702Z  
 
 ```sql
-/* Write a query to do the following
-- Set hourly_pay to 150 for HR employees
-- Output the entire table
-*/
-update employee set hourly_pay=150 where department='Hr';
+/* Write a query which does the following
+- Delete all rows in the employee table whose Department is 'Hr'.
+- Output all the entires of the table. */
+delete from employee where Department='Hr';
 select *from employee;
 ```
 
