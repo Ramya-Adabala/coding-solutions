@@ -58,9 +58,9 @@ All indices match.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 4 ms (beats 78.15%)  
-**Memory:** 43.5 MB (beats 27.95%)  
-**Submitted:** 2026-09-02T04:39:29.100Z  
+**Runtime:** 4 ms (beats 78.35%)  
+**Memory:** 43.5 MB (beats 27.75%)  
+**Submitted:** 2026-09-07T16:09:32.731Z  
 
 ```java
 class Solution {
