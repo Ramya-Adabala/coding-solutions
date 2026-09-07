@@ -4,37 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Fill in the blanks - Static Members Usage
+
+Complete the missing parts in the code that demonstrates the usage of static variables, methods, and blocks in Java. You need to fill in the blanks to initialize the static variable, implement the static block to modify the static variable, and correctly call the static method in the `main` method.
+
+ **Expected Output:** 
+
+```
+Count: 11
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:34:24.491Z  
+**Submitted:** 2026-09-07T14:35:44.592Z  
 
 ```java
 class Codechef {
-    
-    // Static variable: Shared by all instances of the class
-    static int staticVar = 10;
+    // Static variable
+    static int count = 0;  // Initialize count to 0
 
-    // Static method: Can be called without creating an instance of the class
-    static void staticMethod() {
-        System.out.println("Static Method called");
+    // Static method
+    public static void increment() {
+        count++;  // Static method to increment the count
     }
 
-    // Static block: Executes once when the class is loaded
+    // Static block
     static {
-        System.out.println("Static Block executed");
+        count=10;  // Initialize count to 10
     }
 
     public static void main(String[] args) {
-        // Accessing static variable directly without creating an object
-        System.out.println("Static Variable: " + staticVar);
-
-        // Calling static method without creating an object of the class
-        staticMethod();
+        // Calling the static method
+        Codechef.increment();  // Fill in the missing method call code to increment count
+        
+        // Printing the static variable
+        System.out.println("Count: " + count);
     }
 }
 
