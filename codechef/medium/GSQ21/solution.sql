@@ -1,4 +1,6 @@
-/* Write a query that does the following
-- Where the origin of the flight is 'New York'
-- Output the passenger_name and gender */
-select passenger_name,gender from flights where origin='New York';
+/* Debug this query to get the correct output */
+
+select distinct passenger_name
+from flights
+where gender = 'Male'
+and origin = 'Mumbai';
