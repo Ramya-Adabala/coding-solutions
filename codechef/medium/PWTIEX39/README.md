@@ -4,16 +4,36 @@
 
 ## Problem
 
-_Description not available._
+### Output of Code with Object References & Assignment
+
+What will be the output of the following code, considering object references and assignment behavior in Java?
+
+```
+class Person {
+    String name;  // Instance variable
+}
+
+public class Codechef {
+    public static void main(String[] args) {
+        Person p1 = new Person();  // Create an object of Person class
+        p1.name = "Alice";  // Assign value directly to instance variable
+
+        Person p2 = p1;  // Assigning reference of p1 to p2
+        p2.name = "Bob";  // Modifying the name of p2
+        System.out.println(p1.name);  // What will be the output?
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:32:00.485Z  
+**Submitted:** 2026-09-07T14:33:28.942Z  
 
-```java
+```cpp
 // The Book class defined here for reference assignment example
 class Book {
     String title;
