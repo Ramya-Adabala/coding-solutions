@@ -31,7 +31,7 @@ public class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:33:28.942Z  
+**Submitted:** 2026-09-07T14:34:02.486Z  
 
 ```cpp
 // The Book class defined here for reference assignment example
