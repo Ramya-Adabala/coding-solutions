@@ -1,5 +1,5 @@
 /* Write a query which meets the following conditions
-- Passenger_id is blank or null
-- Order by name
+-Order by the origin
+-Show only 3 rows of data
 */
-select *from flights where Passenger_id is null order by passenger_name;
+select *from flights order by origin limit 3;
