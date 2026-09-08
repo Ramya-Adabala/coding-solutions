@@ -4,22 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Debug this query
+
+Listen
+
+Let us now debug a query which tests what we learnt in this sub-module -  **AND, OR & LIKE**.
+
+You are given a query which is trying to output entries that meets both the conditions
+
+- Passenger gender - Female AND
+- Flight destination - Delhi
+
+```
+Expected Output
+┌──────────────┬────────────────┬────────┬────────┬─────────────┐
+│ Passenger_id │ Passenger_name │ Gender │ Origin │ Destination │
+├──────────────┼────────────────┼────────┼────────┼─────────────┤
+│ 10002        │ Riya           │ Female │ Mumbai │ Delhi       │
+└──────────────┴────────────────┴────────┴────────┴─────────────┘
+
+```
+
+However - the query is giving an incorrect output. Fix the query to solve the problem.
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T01:06:43.900Z  
+**Submitted:** 2026-09-08T01:07:40.977Z  
 
 ```sql
-/* write a query with the following conditions
-- Destination city end in 'o' AND
-- Origin city starts with 'M' 
+/* Debug this query to meet the following conditons
+- Passenger gender - Female AND
+- Flight destination - Delhi
 */
-select *from flights where Destination like '%o' and Origin like 'M%';
 
+select * from flights
+where gender ='Female'
+and destination like 'Delhi';
 ```
 
 ---
