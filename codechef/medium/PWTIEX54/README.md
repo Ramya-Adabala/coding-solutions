@@ -20,7 +20,7 @@ Count: 11
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:35:44.592Z  
+**Submitted:** 2026-09-08T01:08:28.066Z  
 
 ```java
 class Codechef {
