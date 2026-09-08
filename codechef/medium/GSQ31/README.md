@@ -4,53 +4,21 @@
 
 ## Problem
 
-### NULL Values
-
-Listen
-
-Some rows / columns in databases can be empty - these values are treated as  **NULL**.
- **IS NULL**  and  **IS NOT NULL**  are used to filter for such entries.
-Review the sample syntax below
-
-```
-select * from Flights
-where origin IS NULL;
-
-```
-
-### Task
-
-Write a query which meets the following conditions
-
-- Passenger_id is blank or null
-- Order by passenger_name
-
-```
-Expected output
-┌──────────────┬────────────────┬────────┬─────────┬─────────────┐
-│ Passenger_id │ Passenger_name │ Gender │ Origin  │ Destination │
-├──────────────┼────────────────┼────────┼─────────┼─────────────┤
-│ NULL         │ Dia            │ Female │ Beijing │ Mumbai      │
-│ NULL         │ Roy            │ Male   │ London  │ Delhi       │
-│ NULL         │ Salim          │ Male   │ Ohio    │ New York    │
-└──────────────┴────────────────┴────────┴─────────┴─────────────┘
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T12:55:19.094Z  
+**Submitted:** 2026-09-08T12:54:05.117Z  
 
 ```sql
 /* Write a query which meets the following conditions
-- Passenger_id is blank or null
-- Order by name
+-Order by the origin
+-Show only 3 rows of data
 */
-select *from flights where Passenger_id is null order by passenger_name;
-
+select *from flights order by origin limit 3;
 ```
 
 ---
