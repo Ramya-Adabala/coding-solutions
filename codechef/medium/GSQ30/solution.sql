@@ -1,6 +1,5 @@
-/* Write a query based on the following conditions 
-Destination is 'Cairo'
-Entries are ordered by passenger_name in a descending order
+/* Write a query which meets the following conditions
+-Order by the origin
+-Show only 3 rows of data
 */
-select *from flights where Destination='Cairo' order by passenger_name desc;
-
+select *from flights order by origin limit 3;
