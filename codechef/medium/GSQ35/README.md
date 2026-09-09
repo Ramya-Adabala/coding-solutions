@@ -4,19 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Project - Distinct with name pattern
+
+Listen
+
+Write a query to output the customer id of all distinct users whose name end with the letter 'a'.
+
+```
+Expected output
+┌─────────────┐
+│ customer_id │
+├─────────────┤
+│ 12445       │
+│ 12345       │
+│ 22213       │
+│ 22217       │
+│ 22219       │
+└─────────────┘
+
+```
+
+Your database is named 'Orders' and has the following columns
+
+- order_id (INT)
+- order_time (DOUBLE)
+- customer_id (VARCHAR)
+- customer_name (VARCHAR)
+- address_pincode (INT)
+- apartment_floor (INT)
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T01:05:02.927Z  
+**Submitted:** 2026-09-09T01:06:29.777Z  
 
 ```sql
-/* Write a query to output the all the data for orders received between 12 pm and 1 pm. */
-select *from orders where order_time between 12 and 13;
-
+/* Write a query to output the userids of all distinct users whose name end with the letter 'a' */
+select distinct customer_id from orders where customer_name like '%a';
 ```
 
 ---
