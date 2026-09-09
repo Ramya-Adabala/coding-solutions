@@ -35,7 +35,7 @@ Discount: Silver
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T01:10:11.652Z  
+**Submitted:** 2026-09-09T01:09:49.882Z  
 
 ```java
 class Customer {
