@@ -30,7 +30,7 @@ Go ahead and check the entries in the table in the IDE.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T12:56:18.228Z  
+**Submitted:** 2026-09-09T01:01:45.164Z  
 
 ```sql
 /* Write a query to check the entries in the table.
