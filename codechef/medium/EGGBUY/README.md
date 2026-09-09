@@ -65,12 +65,12 @@ It's better to buy from the second shop, spending $53$ coins.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:34:03.733Z  
+**Submitted:** 2026-09-09T14:34:42.092Z  
 
-```cpp
+```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -85,8 +85,8 @@ class Codechef
 		int y=sc.nextInt();
 		int f=sc.nextInt();
 		int first=x*12;
-		int second=y*12;
-		System.out.println(Math.min(first,(second+3)));
+		int second=y*12+f;
+		System.out.println(Math.min(first,second));
 
 	}
 }
