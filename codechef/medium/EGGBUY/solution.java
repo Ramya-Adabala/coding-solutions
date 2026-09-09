@@ -12,8 +12,8 @@ class Codechef
 		int y=sc.nextInt();
 		int f=sc.nextInt();
 		int first=x*12;
-		int second=y*12;
-		System.out.println(Math.min(first,(second+3)));
+		int second=y*12+f;
+		System.out.println(Math.min(first,second));
 
 	}
 }
