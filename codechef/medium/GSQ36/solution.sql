@@ -1,4 +1,2 @@
-/* You want to ensure that your delivery boys have to climb the least floors.
-Write a query to sort the data in an ascending order. */
-select *from orders order by apartment_floor;
-
+/* Write a query to output the userids of all distinct users whose name end with the letter 'a' */
+select distinct customer_id from orders where customer_name like '%a';
