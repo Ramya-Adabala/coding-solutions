@@ -52,7 +52,7 @@ Your database is named 'Orders' and has the following columns
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T01:09:21.429Z  
+**Submitted:** 2026-09-10T01:35:42.093Z  
 
 ```sql
 /* The query given below is incorrect. Debug this query to solve the problem */
