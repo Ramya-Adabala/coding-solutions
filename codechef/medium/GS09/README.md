@@ -4,76 +4,88 @@
 
 ## Problem
 
-### Test cases
+### What are test cases
 
 Listen
 
-In the previous module, we practiced simple methods of Input and Output used in programming problems.
+In the previous problem - we wrote the program to accept 5 inputs on 5 separate lines.
 
-Let us take the next small step and learn about `test cases`.
-For a lot of problems in CodeChef, you will have to solve the task for multiple test cases.
+- What will we do if we expect 100 inputs or test cases?
+- What about 100,000 inputs or test cases?
 
-Example: Consider 5 test cases or 5 inputs
+For taking a lot of test cases as input, we use loops.
+In the last problem, we told you that the number of test cases was 5.
+Usually the number of test cases is the first input you take and then take that input for each test case.
+
+Consider this test case
 
 ```
-1
 2
-3
 4
 5
 
 ```
 
+Here 2 is the number of test cases. 4 and 5 are the the input for 1st and 2nd test case respectively. A code for taking and printing this test cases will be:
+
+```
+t = int(input())
+for i in range(t):
+    n = int(input())
+    print(n)
+
+# Output
+4
+5
+
+```
+
+- We took the input for 't', the number of test cases in the first line.
+- Then we ran a loop which will go from 0 to '(t-1)', using the range function.
+- For each test case, we input the value in 'n' and printed it.
 ### Task
 
 Write a program in the IDE which does the following
 
-- Accepts 5 inputs given on 5 separate lines. Each input is an integer $N$
+- Accepts the count of test cases - $t$ - as an integer input given in the 1st line. This is followed by $t$ lines - Each line contains an integer $N$
 - For each test cases, prints out the integer $N$ to console on a separate line
 ### Sample 1:
 Input
 Output
 
 ```
-11
-123
-34
+3
+1
 22
-45
+33
 ```
 
 ```
-11
-123
-34
+1
 22
-45
+33
 ```
 
 ### Explanation:
 
-Since the count of test cases is 5 -> we accept 5 inputs and print 5 outputs
+Since the count of test cases is 3 -> we accept 3 inputs and print 3 outputs
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T06:38:14.233Z  
+**Submitted:** 2026-09-11T06:38:41.836Z  
 
 ```py
-# Update the '_' in the code below
+# accept the count of test cases given in the the 1st line
+t = int(input())
 
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
-E = int(input())
-print(A)
-print(B)
-print(C)
-print(D)
-print(E)
+# run a loop to accept 't' inputs
+for i in range(t):     
+    N = int(input())      
+    print(N)
+
 ```
 
 ---
