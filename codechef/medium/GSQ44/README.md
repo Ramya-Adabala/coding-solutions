@@ -4,19 +4,47 @@
 
 ## Problem
 
-_Description not available._
+### Problem - SUM() and AVG()
+
+Listen
+
+Write a query to output the following on separate lines from the table 'employee'
+
+- Total Payout for the Product department. Rename the column header as 'product_total_pay'
+- Average Payout for Operations department. Rename the column header as 'ops_avg_pay'
+
+employee table has following columns:
+| **Employee_id**  |  **Employee_Name**  |  **Department**  |  **Payout**  |
+
+```
+Expected output
+┌───────────────────┐
+│ product_total_pay │
+├───────────────────┤
+│ 20.528            │
+└───────────────────┘
+┌─────────────┐
+│ ops_avg_pay │
+├─────────────┤
+│ 12.41975    │
+└─────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T06:09:30.914Z  
+**Submitted:** 2026-09-11T06:13:02.309Z  
 
 ```sql
-/* Write a query to find the Average of the column 'Payout' from the table 'employee'. */
-select avg(Payout) as avg_payout from employee;
-
+/* Write a query to output the following on separate lines
+- Total Payout for the Product department.
+- Average Payout for Operations department. */
+select sum(Payout) as product_total_pay from employee
+where department='Product';
+select avg(Payout) as ops_avg_pay from employee where department='Operations';
 ```
 
 ---
