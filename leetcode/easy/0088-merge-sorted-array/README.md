@@ -61,8 +61,8 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44 MB (beats 16.51%)  
-**Submitted:** 2026-09-09T17:23:47.202Z  
+**Memory:** 43.7 MB (beats 63.44%)  
+**Submitted:** 2026-09-11T06:52:07.233Z  
 
 ```java
 class Solution {
