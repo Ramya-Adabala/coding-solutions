@@ -4,19 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### Debug this query
+
+Listen
+
+The Query written in the console is trying to find the minimum and maximum value of payout rounded to 2 decimal places in the table employee.
+ **Debug this query**  to output the minimum and maximum value of payout, rounded to 2 decimal places.
+
+Your database is named 'employee' and has the following columns
+
+- Id (INT)
+- Name (VARCHAR),
+- Email (VARCHAR),
+- Payout(INT)
+### Expected output
+
+```
+┌─────────┬─────────┐
+│ min_pay │ max_pay │
+├─────────┼─────────┤
+│ 123.54  │ 789.43  │
+└─────────┴─────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T01:50:25.064Z  
+**Submitted:** 2026-09-11T06:07:33.465Z  
 
 ```sql
-/* Write a query to output the following:
-- Round the column **Payout** to 2 decimal places. */
-select round(Payout,2) as payout from employee;
+/* **Debug this query** to output the minimum and maximum value of payout, round to 2 decimal places. */
+
+
+select round(min(Payout),2) as 'min_pay',
+    round(max(Payout),2) as 'max_pay'
+from employee;
 
 
 ```
