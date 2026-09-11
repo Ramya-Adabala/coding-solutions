@@ -46,7 +46,7 @@ Expected Output:
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T06:15:44.898Z  
+**Submitted:** 2026-09-11T06:40:44.164Z  
 
 ```sql
  /* Write a query to find the Average of the column 'Payout' across 'Department' from the table 'employee'. The output table should have the average payout of each department.*/
