@@ -36,7 +36,7 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T01:50:24.291Z  
+**Submitted:** 2026-09-11T06:04:08.049Z  
 
 ```sql
 /* Write a query to output the following:
