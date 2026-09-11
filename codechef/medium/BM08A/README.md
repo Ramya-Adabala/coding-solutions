@@ -20,7 +20,7 @@ Proceed to the IDE to test out the syntax.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:46:11.274Z  
+**Submitted:** 2026-09-11T06:19:33.218Z  
 
 ```py
 #Click on 'Submit' to check the output of the functions
