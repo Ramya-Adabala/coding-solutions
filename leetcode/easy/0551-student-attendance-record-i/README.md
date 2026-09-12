@@ -47,9 +47,9 @@ Explanation: The student was late 3 consecutive days in the last 3 days, so is n
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.2 MB  
-**Submitted:** 2026-09-12T04:47:12.512Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 42.8 MB (beats 76.64%)  
+**Submitted:** 2026-09-12T04:47:18.648Z  
 
 ```java
 class Solution {
