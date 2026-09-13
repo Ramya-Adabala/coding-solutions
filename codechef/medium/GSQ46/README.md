@@ -48,7 +48,7 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T02:34:49.850Z  
+**Submitted:** 2026-09-13T10:07:14.815Z  
 
 ```sql
  /* Write a query to find out the average Payout across department which has more than 3 employees from the table employee.
