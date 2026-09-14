@@ -33,7 +33,7 @@ Explanation: We need to remove d and k from s1. Therefore answer of this test ca
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T05:36:07.269Z  
+**Submitted:** 2026-09-14T10:43:36.234Z  
 
 ```java
 class Solution {
