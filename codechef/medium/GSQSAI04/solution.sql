@@ -1,5 +1,4 @@
 /* Solution as follows */
 
-SELECT DATE('2024-07-04','+1 month');
-SELECT TIME('20:34:21','+30 minutes');
-
+SELECT STRFTIME('%Y-%m-%d %H:%M:%S','2023-04-20 13:40:23','+10 days');
+SELECT STRFTIME('%d','2024-03-04 23:34:20');
