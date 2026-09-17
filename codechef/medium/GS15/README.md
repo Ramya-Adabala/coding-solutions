@@ -4,20 +4,16 @@
 
 ## Problem
 
-### Debug this code - Why is this code incorrect
+### String mirror - Double strings
 
 Listen
 
-So as you solve programming problems - you will need to debug and find errors in your own code.
+Write a program in the IDE which does the following
 
-### Task
+- Accepts the count of test cases - $t$ - in the 1st line First line of each test case consists of a string $S$
+- You need to perform the following operation Create a variable $X$ which contains the string $S$ concatenated with the string $S$ Output $X$ for each test case
 
-You are given a program which does the following
-
-- Accepts the count of test cases - $t$ - in the 1st line The only line of each test case consists of an integer $N$
-- For each test case, output to the console the value that is double the integer $N$
-
-Can you try and 'debug / fix' the error in the given program?
+We learned how to concatenate two strings in learn python course.
 
 ### Sample 1:
 Input
@@ -25,15 +21,15 @@ Output
 
 ```
 3
-1
-2
-3
+ab
+bc
+cd
 ```
 
 ```
-2
-4
-6
+abab
+bcbc
+cdcd
 ```
 
 ## Solution
@@ -41,15 +37,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T14:18:57.409Z  
+**Submitted:** 2026-09-17T14:17:03.958Z  
 
 ```py
-# Debug the following code to solve the problem
-
 t = int(input())
 for i in range(t):
-    N = int(input())
-    print(2*N)
+    # take input and output the join using +
+    s=input()
+    x=s+s
+    print(x)
 ```
 
 ---
