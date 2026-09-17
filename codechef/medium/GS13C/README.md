@@ -42,11 +42,11 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T14:14:09.301Z  
+**Submitted:** 2026-09-17T14:14:13.288Z  
 
 ```py
 # Change the 'custom inputs' below and click 'run'
-# Click on 'Submit' once you have tried out to proceed to the next problem
+# Once you have run the code - click on 'submit' to find the result with the private test files
 
 t = int(input())
 for i in range(t):
