@@ -53,7 +53,7 @@ Output for test case 2: 34 567 A1B2C3
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T06:39:57.920Z  
+**Submitted:** 2026-09-17T14:13:00.600Z  
 
 ```py
 t = int(input())
