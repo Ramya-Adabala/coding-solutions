@@ -86,7 +86,7 @@ After inserting the data, also write the queries for retrieving the  **first 3 r
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T02:31:46.445Z  
+**Submitted:** 2026-09-17T09:17:34.138Z  
 
 ```sql
 /*Solution as follows*/
