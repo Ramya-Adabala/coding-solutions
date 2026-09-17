@@ -4,48 +4,27 @@
 
 ## Problem
 
-### String mirror - Double strings
-
-Listen
-
-Write a program in the IDE which does the following
-
-- Accepts the count of test cases - $t$ - in the 1st line First line of each test case consists of a string $S$
-- You need to perform the following operation Create a variable $X$ which contains the string $S$ concatenated with the string $S$ Output $X$ for each test case
-
-We learned how to concatenate two strings in learn python course.
-
-### Sample 1:
-Input
-Output
-
-```
-3
-ab
-bc
-cd
-```
-
-```
-abab
-bcbc
-cdcd
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T14:17:02.021Z  
+**Submitted:** 2026-09-17T14:16:00.923Z  
 
 ```py
-t = int(input())
-for i in range(t):
-    # take input and output the join using +
-    s=input()
-    x=s+s
-    print(x)
+# Solution as follows
+
+# accept the count of test cases given in the the 1st line
+t = int(input())        
+
+# run a loop to accept 't' inputs
+for i in range(t):      
+    n = int(input())    
+    
+    # output the negative integer - i.e. (-n)
+    print(-n)
 ```
 
 ---
