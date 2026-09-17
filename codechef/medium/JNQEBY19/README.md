@@ -4,16 +4,51 @@
 
 ## Problem
 
-_Description not available._
+### Usage of this Keyword in Java
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    String name;
+    int age;
+
+    // Constructor to set name and age
+    Codechef(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        // Create object with values
+        Codechef person = new Codechef("Alice", 30);
+
+        // First comparison (using == for demonstration)
+        if (person.name == "Alice" && person.age == 30) {
+            System.out.println("Details match!");
+        } else {
+            System.out.println("Details don't match!");
+        }
+
+        // Second comparison
+        if (person.name == "Bob" && person.age == 25) {
+            System.out.println("Details match!");
+        } else {
+            System.out.println("Details don't match!");
+        }
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T09:35:43.732Z  
+**Submitted:** 2026-09-17T09:35:59.677Z  
 
-```java
+```cpp
 class Codechef {
     // Instance variables for the account holder's name and balance
     String accountHolderName;
