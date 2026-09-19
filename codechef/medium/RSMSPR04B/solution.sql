@@ -1,10 +1,3 @@
---Solution as follows
-
-UPDATE Products
-SET price = price * 1.10
-WHERE category = 'Electronics';
-
-SELECT name, price, stock_quantity
-FROM Products 
-WHERE category = 'Electronics'
-LIMIT 1;
+/* Update your query here*/
+alter table Orders add column discount real default 0;
+select order_id, total_amount,discount from Orders limit 1;
