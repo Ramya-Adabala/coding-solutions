@@ -4,19 +4,67 @@
 
 ## Problem
 
-_Description not available._
+### Task-4C Data Modification (Update and Alter)
+
+Listen
+
+Write queries for the following data modification operations based on the tables that we created and the data that we inserted.
+
+### Task
+
+Update the stock quantity of all products that has stock quantity of 10 to 0.
+Then, retrieve all the details of all the products whose stock quantity is 0 from the Products table.
+
+### Expected output
+
+```
+┌────────────┬─────────────────┬─────────────┬──────────┬────────────────┐
+│ product_id │      name       │  category   │  price   │ stock_quantity │
+├────────────┼─────────────────┼─────────────┼──────────┼────────────────┤
+│ 101        │ Apple iPhone 15 │ Electronics │ 999.99   │ 0              │
+└────────────┴─────────────────┴─────────────┴──────────┴────────────────┘
+
+```
+
+### Tables
+- Customers
+
+```
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │
+└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
+
+```
+
+- Products
+
+```
+┌────────────┬────────────────────┬─────────────┬────────┬────────────────┐
+│ product_id │        name        │  category   │ price  │ stock_quantity │
+└────────────┴────────────────────┴─────────────┴────────┴────────────────┘
+
+```
+
+- Orders
+
+```
+┌──────────┬─────────────┬────────────┬──────────────┬─────────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any  │
+└──────────┴─────────────┴────────────┴──────────────┴─────────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T08:57:33.730Z  
+**Submitted:** 2026-09-19T09:00:37.109Z  
 
 ```sql
 /* Update your query here*/
-alter table Orders add column discount real default 0;
-select order_id, total_amount,discount from Orders limit 1;
+update Products set stock_quantity=0 where stock_quantity=10;
+select *from Products where stock_quantity=0;
 ```
 
 ---
