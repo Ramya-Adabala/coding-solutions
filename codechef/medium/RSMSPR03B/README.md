@@ -58,7 +58,7 @@ Get orders of customers who have spent more than ₹900.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T04:44:24.483Z  
+**Submitted:** 2026-09-19T04:47:29.304Z  
 
 ```sql
 /* Update your query below*/
