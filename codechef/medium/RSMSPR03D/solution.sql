@@ -1,2 +1,2 @@
-/* Update your query here*/
-select *from customers where address= 'Not Provided';
+/* Update your query here */
+select *from products order by price desc limit 2;
