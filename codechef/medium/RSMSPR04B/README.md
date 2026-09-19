@@ -11,7 +11,7 @@ _Description not available._
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T04:49:18.728Z  
+**Submitted:** 2026-09-19T08:52:18.724Z  
 
 ```sql
 --Solution as follows
