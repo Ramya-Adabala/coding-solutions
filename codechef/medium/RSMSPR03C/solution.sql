@@ -1,2 +1,2 @@
-/* Update your query below*/
-select *from orders where total_amount>900;
+/* Update your query here */
+select *from products order by price desc limit 2;
