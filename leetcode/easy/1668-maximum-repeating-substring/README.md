@@ -49,8 +49,8 @@ Explanation: "ac" is not a substring in "ababc".
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 89.17%)  
-**Memory:** 43.1 MB (beats 35.72%)  
-**Submitted:** 2026-09-20T11:51:45.170Z  
+**Memory:** 43 MB (beats 53.13%)  
+**Submitted:** 2026-09-20T11:51:54.352Z  
 
 ```java
 class Solution {
