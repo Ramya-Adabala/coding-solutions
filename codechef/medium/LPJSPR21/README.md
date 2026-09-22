@@ -4,11 +4,9 @@
 
 ## Problem
 
-### Print Squares
+### Print all the arithematic operations
 
-Write a program to output the squares (using multiplication) of numbers from 1 to 5 on separate lines.
-
-[ **Note:**  Print the output in the same format as given below.]
+Write a JavaScript program that calculates and prints the results of arithmetic operations such as addition, subtraction, division, and multiplication between the numbers $8$ and $4$.
 
 ### Sample 1:
 Input
@@ -19,11 +17,10 @@ Output
 ```
 
 ```
-1 - 1  
-2 - 4  
-3 - 9  
-4 - 16  
-5 - 25  
+12
+4
+2
+32
 ```
 
 ## Solution
@@ -31,14 +28,14 @@ Output
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T12:46:25.695Z  
+**Submitted:** 2026-09-22T12:47:31.244Z  
 
 ```js
-console.log("1 - " + (1 * 1));
-console.log("2 - " + (2 * 2));
-console.log("3 - " + (3 * 3));
-console.log("4 - " + (4 * 4));
-console.log("5 - " + (5 * 5));
+// your code goes here
+console.log(8+4);
+console.log(8-4);
+console.log(8/4);
+console.log(8*4);
 
 ```
 
