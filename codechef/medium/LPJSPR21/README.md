@@ -4,14 +4,34 @@
 
 ## Problem
 
-_Description not available._
+### Print Squares
+
+Write a program to output the squares (using multiplication) of numbers from 1 to 5 on separate lines.
+
+[ **Note:**  Print the output in the same format as given below.]
+
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+1 - 1  
+2 - 4  
+3 - 9  
+4 - 16  
+5 - 25  
+```
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T13:02:12.511Z  
+**Submitted:** 2026-09-22T12:46:25.695Z  
 
 ```js
 console.log("1 - " + (1 * 1));
