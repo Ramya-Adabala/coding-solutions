@@ -1,4 +1,4 @@
-// your code goes here
-let a=30;
-let b=10;
-console.log(a/b);
+let temperature = 25.5;
+
+console.log("Celsius - " + temperature);
+console.log("Kelvin - " + (temperature + 273));
