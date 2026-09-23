@@ -1,4 +1,6 @@
-let temperature = 25.5;
+let hour = 5;
+let minutes = hour * 60;
+let seconds = minutes * 60;
 
-console.log("Celsius - " + temperature);
-console.log("Kelvin - " + (temperature + 273));
+console.log(minutes);
+console.log(seconds);
