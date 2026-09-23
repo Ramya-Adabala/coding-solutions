@@ -63,7 +63,7 @@ The second character of `ever` is `v`, while its fourth character is `r`. These 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T14:56:50.255Z  
+**Submitted:** 2026-09-23T14:57:04.000Z  
 
 ```java
 import java.util.*;
