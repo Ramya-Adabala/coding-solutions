@@ -1,8 +1,10 @@
-// Debug the given code
+let one = 'Coding';
+let two = 'on';
+let three = 'CodeChef';
 
-let x = 'chef';
-let y = 'love\'s';
-let z = 'coding';
+let combination = one + ' ' + two + ' ' + three;
 
-console.log(x + ' ' + y + ' ' + z);
-
+console.log(one + ' - ' + one.length);
+console.log(two + ' - ' + two.length);
+console.log(three + ' - ' + three.length);
+console.log(combination + ' - ' + combination.length);
