@@ -50,8 +50,8 @@ Both `"a"` and `"A"` are in the 2nd row of the American keyboard due to case ins
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.7 MB (beats 83.73%)  
-**Submitted:** 2026-08-27T04:14:17.003Z  
+**Memory:** 42.8 MB (beats 51.53%)  
+**Submitted:** 2026-09-23T05:09:30.463Z  
 
 ```java
 class Solution {
