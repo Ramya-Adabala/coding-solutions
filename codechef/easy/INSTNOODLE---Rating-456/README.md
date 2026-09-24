@@ -60,15 +60,27 @@ Each person orders one packet, so the maximum number of customers that can be se
 
 ## Solution
 
-**Language:** Python  
+**Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T05:40:54.750Z  
+**Submitted:** 2026-09-24T11:36:11.478Z  
 
-```py
-# cook your dish here
-x,y=map(int,input().split())
-print(x*y)
+```js
+// Complete the code
+
+function maxCustomers(X, Y){
+  console.log(X*Y);
+}
+
+// Input related code. Please do not change this.
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+  const nums = input.split(' ');
+  const x = parseInt(nums[0]);
+  const y = parseInt(nums[1]);
+  maxCustomers(x, y);
+});
+
 ```
 
 ---
