@@ -93,15 +93,27 @@ So, for the first hour, she will pay Rs. $10$. And she does not have to pay any 
 
 ## Solution
 
-**Language:** Python  
+**Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T05:47:06.851Z  
+**Submitted:** 2026-09-24T11:46:25.199Z  
 
-```py
-# cook your dish here
-x,y,h=map(int,input().split())
-print(x + y*(h-1))
+```js
+// Complete the code 
+
+function totalAmount(x, y, h){
+    console.log(x+(h-1)*y);
+}
+
+// Input related code. Please do not change this.
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+  const nums = input.trim().split(' ');
+  const x = parseInt(nums[0]); 
+  const y = parseInt(nums[1]); 
+  const h = parseInt(nums[2]); 
+  totalAmount(x, y, h);
+});
 ```
 
 ---
