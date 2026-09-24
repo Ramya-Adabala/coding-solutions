@@ -58,15 +58,25 @@ If there are $9$ languages, then there will be $2 * 9 = 18$ courses in total.
 
 ## Solution
 
-**Language:** Python  
+**Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T05:41:52.562Z  
+**Submitted:** 2026-09-24T11:36:41.167Z  
 
-```py
-# cook your dish here
-x=int(input())
-print(x*2)
+```js
+// Complete the code
+
+function totalCourses(n){
+    console.log(n*2);
+}
+
+// Input related code. Please do not change this.
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+   const n = parseInt(input.trim()); 
+   totalCourses(n);
+});
+
 ```
 
 ---
