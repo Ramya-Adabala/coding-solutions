@@ -96,7 +96,7 @@ So, for the first hour, she will pay Rs. $10$. And she does not have to pay any 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T11:46:25.199Z  
+**Submitted:** 2026-09-25T04:23:55.846Z  
 
 ```js
 // Complete the code 
