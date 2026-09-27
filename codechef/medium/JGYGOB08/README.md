@@ -22,7 +22,7 @@ I am also a student.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T11:47:58.269Z  
+**Submitted:** 2026-09-27T06:32:31.558Z  
 
 ```java
 // Parent class
