@@ -4,25 +4,14 @@
 
 ## Problem
 
-### Worked Example - Using super Keyword
-
-In this example, we demonstrate how inheritance in Java allows a subclass to reuse code from a parent class. The extends keyword is used to create the subclass, `super()` is used to call the parent class constructor, and `super.methodName()` is used to call a method from the parent class.
-
- **When executed, the code will show:** 
-
-```
-Person object created.
-I am a person.
-I am also a student.
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T11:47:59.495Z  
+**Submitted:** 2026-09-27T06:32:32.879Z  
 
 ```java
 // Parent class
