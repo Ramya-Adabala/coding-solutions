@@ -19,7 +19,7 @@ Rectify the given code.
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-25T08:33:51.999Z  
+**Submitted:** 2026-09-27T06:33:13.996Z  
 
 ```js
 let name_1 = "Ajay";
