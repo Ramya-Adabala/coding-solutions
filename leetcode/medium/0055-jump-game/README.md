@@ -38,9 +38,9 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 99.94%)  
-**Memory:** 47.8 MB (beats 62.30%)  
-**Submitted:** 2026-09-16T09:46:02.921Z  
+**Runtime:** 2 ms (beats 89.70%)  
+**Memory:** 47.8 MB (beats 61.90%)  
+**Submitted:** 2026-09-28T13:54:32.881Z  
 
 ```java
 class Solution {
