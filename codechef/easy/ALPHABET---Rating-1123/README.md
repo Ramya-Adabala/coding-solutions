@@ -60,7 +60,7 @@ The second word contains the letters d, o and g that aren't known by Jeff.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T12:55:34.488Z  
+**Submitted:** 2026-09-28T13:34:52.877Z  
 
 ```java
 import java.util.*;
