@@ -1,4 +1,9 @@
-// Debug the following code
-let Codechef = 19;
+let x = parseInt(inputChar);
 
-console.log(Codechef);
+if (x % 2 !== 0) {
+    console.log("false");
+} else {
+    console.log("true");
+}
+
+  
