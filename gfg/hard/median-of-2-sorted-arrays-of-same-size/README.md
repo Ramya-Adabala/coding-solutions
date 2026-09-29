@@ -36,7 +36,7 @@ Explanation: The merged array is [-6, -5]. So the median of the merged array is 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T01:20:27.440Z  
+**Submitted:** 2026-09-29T02:42:24.403Z  
 
 ```java
 class Solution {
