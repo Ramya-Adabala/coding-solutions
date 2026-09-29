@@ -55,7 +55,7 @@ Alice has scored $X = 1$ mark whereas Bob has scored $Y = 2$ marks. As Alice has
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T02:30:50.314Z  
+**Submitted:** 2026-09-29T02:30:56.672Z  
 
 ```js
 // Complete the code
