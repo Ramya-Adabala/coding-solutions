@@ -1,7 +1,13 @@
 // Complete the code
 
 function abDifference(a, b){
-   
+   let sum = a + b;
+    let product = a * b;
+    if(product > sum){
+        console.log(product - sum);
+    } else{
+        console.log(sum - product);
+    }
 }
 
 // Input related code. Please do not change. 
