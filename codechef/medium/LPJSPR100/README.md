@@ -42,7 +42,7 @@ Output
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T02:28:57.360Z  
+**Submitted:** 2026-09-29T02:29:35.120Z  
 
 ```js
 let number = parseInt(inputChar);
@@ -50,7 +50,7 @@ let number = parseInt(inputChar);
 if (number < 0) {
     console.log("NOT FOUND");
 } else {
-    let result = sqrt(number);
+    let result = Math.sqrt(number);
     console.log(result);
 }
 
