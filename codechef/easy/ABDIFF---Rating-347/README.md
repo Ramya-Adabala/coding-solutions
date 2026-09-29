@@ -66,13 +66,19 @@ The difference between these values is $1$.
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T02:33:07.893Z  
+**Submitted:** 2026-09-29T02:33:14.242Z  
 
 ```js
 // Complete the code
 
 function abDifference(a, b){
-   
+   let sum = a + b;
+    let product = a * b;
+    if(product > sum){
+        console.log(product - sum);
+    } else{
+        console.log(sum - product);
+    }
 }
 
 // Input related code. Please do not change. 
