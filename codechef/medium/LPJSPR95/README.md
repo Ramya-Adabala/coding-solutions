@@ -4,51 +4,21 @@
 
 ## Problem
 
-### Identify the error
-
-Identify and correct the logic to print  **true**  if a number is even, else  **false**.
-
-### Sample 1:
-Input
-Output
-
-```
-5
-```
-
-```
-false
-```
-
-### Sample 2:
-Input
-Output
-
-```
-8
-```
-
-```
-true
-```
+_Description not available._
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T02:24:42.238Z  
+**Submitted:** 2026-09-29T02:24:13.365Z  
 
 ```js
-let x = parseInt(inputChar);
+// Debug the following code
+let Codechef = 19;
 
-if (x % 2 !== 0) {
-    console.log("false");
-} else {
-    console.log("true");
-}
+console.log(Codechef);
 
-  
 ```
 
 ---
