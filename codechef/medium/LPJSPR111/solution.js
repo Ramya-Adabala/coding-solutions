@@ -1,9 +1,10 @@
-const array = ["Code", "Chef", "C"];
 
-// Print the length of first element.
-let length1=array[0].length;
-let length2=array[2].length;
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+let c = [7, 8, 9, ...b]; 
 
+let lengthA = a.length;
+let lengthB = b.length;
+let lengthC = c.length;
 
-// Print the length of third element.
-console.log(length1,length2);
+console.log(lengthA + lengthB + lengthC);
