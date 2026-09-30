@@ -4,25 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### Debug it !
+
+Debug the Following Code to print summation of lengths of the three given arrays.
+
+ **NOTE** : (array_name).length returns the length of vector named array_name.
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T03:18:26.288Z  
+**Submitted:** 2026-09-30T03:18:56.078Z  
 
 ```js
-const array = ["Code", "Chef", "C"];
 
-// Print the length of first element.
-let length1=array[0].length;
-let length2=array[2].length;
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+let c = [7, 8, 9, ...b]; 
 
+let lengthA = a.length;
+let lengthB = b.length;
+let lengthC = c.length;
 
-// Print the length of third element.
-console.log(length1,length2);
+console.log(lengthA + lengthB + lengthC);
+
 ```
 
 ---
