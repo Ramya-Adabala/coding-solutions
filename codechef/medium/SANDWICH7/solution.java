@@ -7,6 +7,12 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+Scanner sc=new Scanner(System.in);
+int b=sc.nextInt();
+int h=sc.nextInt();
+int c=sc.nextInt();
+int maxBread=b/2;
+int maxCheese=h+c;
+System.out.println(Math.min(maxBread,maxCheese));
 	}
 }
