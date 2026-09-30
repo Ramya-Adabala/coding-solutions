@@ -57,7 +57,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:43:05.418Z  
+**Submitted:** 2026-09-30T14:45:43.044Z  
 
 ```java
 import java.util.*;
@@ -69,7 +69,13 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+Scanner sc=new Scanner(System.in);
+int b=sc.nextInt();
+int h=sc.nextInt();
+int c=sc.nextInt();
+int maxBread=b/2;
+int maxCheese=h+c;
+System.out.println(Math.min(maxBread,maxCheese));
 	}
 }
 
