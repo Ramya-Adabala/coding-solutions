@@ -4,41 +4,26 @@
 
 ## Problem
 
-### Find the number of digits
-
-Given an integer  **N**, Calculate and print the number of digits present in  **N**.
-
-### Constraints
-- $1 \leq N \leq 10000$
-### Sample 1:
-Input
-Output
-
-```
-1543
-```
-
-```
-4
-```
+_Description not available._
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T02:08:15.248Z  
+**Submitted:** 2026-10-01T02:07:28.013Z  
 
 ```js
   let N = parseInt(inputChar);
   
   // Write your code here
-  let digit=0;
-  while(N>0){
-      digit++;
-      N=Math.floor(N/10);
+  let ans=1;
+  let i=1;
+  while(i<=N){
+      ans*=i;
+      i++;
   }
-  console.log(digit);
+  console.log(ans);
 ```
 
 ---
