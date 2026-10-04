@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int speed1 = 36; // representing speed in km/hr
+	int speed2 = 36 * 5 / 18; // representing speed in m/s
+	cout<<speed2<<"\n";
+
+}
