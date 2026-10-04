@@ -2,13 +2,7 @@
 using namespace std;
 
 int main() {
-    string one = "Coding";
-    string two = "on";
-    string three = "CodeChef";
-    string four = one + " " + two + " " + three;
-    cout << one + " - " << one.length() << endl;
-    cout << two + " - " << two.length() << endl;
-    cout << three + " - " << three.length() << endl;
-    cout << four + " - " << four.length();
-    return 0;
+	string name1 = "Naruto";
+	string name2 = "Sasuke";
+	cout<<( name1.length() + name2.length() );
 }
