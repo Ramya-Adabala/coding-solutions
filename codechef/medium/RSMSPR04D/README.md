@@ -60,7 +60,7 @@ Then, retrieve the name, address and new_address of the first customer from the 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T12:54:25.296Z  
+**Submitted:** 2026-10-05T05:51:40.135Z  
 
 ```sql
 /* Update your query here*/
