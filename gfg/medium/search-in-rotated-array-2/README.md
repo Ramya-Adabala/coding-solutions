@@ -31,7 +31,7 @@ Explanation: 6 is not present in the array.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:14:39.559Z  
+**Submitted:** 2026-10-06T01:44:58.756Z  
 
 ```java
 class Solution {
