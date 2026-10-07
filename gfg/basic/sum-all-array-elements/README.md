@@ -4,7 +4,7 @@
 
 ## Problem
 
-Given an integer array  **arr[]**, return the  **sum** of all elements of arr.
+Given an integer array  **arr[]**, return the sum of all elements of arr.
 
  **Examples:** 
 
@@ -22,16 +22,12 @@ Explanation: 1 + 3 + 3 = 7.
 
 ```
 
- **Constraints:** 
-1 <= arr.size <= 105
-1 <= arr[i] <= 104
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:17:57.238Z  
+**Submitted:** 2026-10-07T10:20:54.149Z  
 
 ```java
 class Solution {
