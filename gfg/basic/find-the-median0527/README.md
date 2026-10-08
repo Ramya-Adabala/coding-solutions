@@ -1,4 +1,4 @@
-# Median of an Array
+# Median of Array
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Basic-red)
 
@@ -28,16 +28,12 @@ Output: 1.5
 Explanation: The average of both elements will result in 1.5.
 ```
 
- **Constraints:** 
-1 <= arr.size() <= 105
-1 <= arr[i] <= 105
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T10:59:44.576Z  
+**Submitted:** 2026-10-08T00:28:35.871Z  
 
 ```java
 class Solution {
