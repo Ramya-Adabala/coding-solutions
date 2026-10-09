@@ -4,7 +4,7 @@
 
 ## Problem
 
-Given an array  **arr**, rotate the array by one position in clockwise direction.
+Given an array  **arr[]**, rotate the array by one position in clockwise direction.
 
  **Examples:** 
 
@@ -20,16 +20,12 @@ Output: [3, 9, 8, 7, 6, 4, 2, 1]
 Explanation: After rotating clock-wise 3 comes in first position.
 ```
 
- **Constraints:** 
-1 ≤ arr.size() ≤ 105
-0 ≤ arr[i] ≤ 105
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T11:42:53.531Z  
+**Submitted:** 2026-10-09T14:23:41.620Z  
 
 ```java
 
