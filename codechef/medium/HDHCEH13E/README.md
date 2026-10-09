@@ -4,16 +4,46 @@
 
 ## Problem
 
-_Description not available._
+### Box class mcq question
+
+What will be the output of the following Java code?
+
+```
+class Box {
+    int value;
+
+    Box(int value) {
+        this.value = value;
+    }
+
+    void update(Box b) {
+        b.value += 10;
+        b = new Box(100);
+        b.value += 20;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Box[] boxes = new Box[2];
+        boxes[0] = new Box(5);
+        boxes[1] = boxes[0];
+
+        boxes[1].update(boxes[0]);
+        System.out.println(boxes[0].value + " & " + boxes[1].value);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** default  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T04:24:27.544Z  
+**Submitted:** 2026-10-09T04:24:48.503Z  
 
-```default
+```cpp
 class Variable {
     // variable
     int value;
