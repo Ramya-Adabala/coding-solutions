@@ -4,16 +4,46 @@
 
 ## Problem
 
-_Description not available._
+### object reference Employee class
+
+Consider the following java code
+
+```
+class Employee {
+    String name;
+    void setName(String name) {
+        this.name = name;
+    }
+}
+
+public class Main {
+    static void modify(Employee e1, Employee e2) {
+        e1.name = "Changed by e1";
+        e2 = new Employee();
+        e2.name = "New Employee";
+    }
+
+    public static void main(String[] args) {
+        Employee emp1 = new Employee();
+        Employee emp2 = new Employee();
+        emp1.setName("Alice");
+        emp2.setName("Bob");
+
+        modify(emp1, emp2);
+        System.out.println(emp1.name + " & " + emp2.name);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T04:23:52.079Z  
+**Submitted:** 2026-10-09T04:24:22.499Z  
 
-```java
+```cpp
 class Variable {
     // variable
     int value;
