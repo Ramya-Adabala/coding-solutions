@@ -26,7 +26,7 @@ What would be the  **output**  for the following Java code?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T04:26:31.145Z  
+**Submitted:** 2026-10-09T04:26:35.909Z  
 
 ```cpp
 class Product {
