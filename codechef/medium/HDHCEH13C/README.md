@@ -23,7 +23,7 @@ Isn't it surprising that instead of getting  **3**  and  **7**, we are getting t
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T00:28:05.611Z  
+**Submitted:** 2026-10-09T04:23:50.435Z  
 
 ```java
 class Variable {
