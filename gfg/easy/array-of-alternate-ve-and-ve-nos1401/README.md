@@ -32,16 +32,12 @@ Output: [9, -2, 5, -1, 5, -5, 0, -3, 2]
 Explanation: The positive numbers are [9, 5, 5, 0, 2] and the negative integers are [-2, -1, -5, -3]. Since, we need to start with the positive integer first and then negative integer and so on (by maintaining the relative order as well), hence we will take 9 from the positive set of elements and then -2 after that 5 and then -1 and so on.
 ```
 
- **Constraints:** 
-1 ≤ arr.size() ≤ 106
--106 ≤ arr[i] ≤ 106
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:47:37.949Z  
+**Submitted:** 2026-10-11T14:28:16.822Z  
 
 ```java
 class Solution {
