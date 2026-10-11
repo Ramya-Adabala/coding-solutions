@@ -29,7 +29,7 @@ Category: Premium
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T04:17:29.007Z  
+**Submitted:** 2026-10-11T14:23:11.847Z  
 
 ```java
 class MovieTicket {
