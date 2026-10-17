@@ -46,7 +46,7 @@ D.    **         *
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T13:02:43.121Z  
+**Submitted:** 2026-10-17T13:02:45.589Z  
 
 ```cpp
 #include <stdio.h>
