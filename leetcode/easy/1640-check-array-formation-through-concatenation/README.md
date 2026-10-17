@@ -51,9 +51,9 @@ Explanation: Concatenate [91] then [4,64] then [78]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 87.96%)  
-**Memory:** 43.4 MB (beats 91.10%)  
-**Submitted:** 2026-10-04T10:42:19.227Z  
+**Runtime:** 1 ms (beats 88.30%)  
+**Memory:** 43.2 MB (beats 95.74%)  
+**Submitted:** 2026-10-17T13:09:36.455Z  
 
 ```java
 class Solution {
