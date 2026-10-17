@@ -33,7 +33,7 @@ Explanation: The average of both elements will result in 1.5.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T00:28:35.871Z  
+**Submitted:** 2026-10-17T13:12:25.524Z  
 
 ```java
 class Solution {
