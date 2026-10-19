@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    char str[] = "RoadChef";
-    str[0] = 'C';
-    str[2] = 'd';
-    str[3] = 'e';
-    
-    printf("%s", str);
-    
+    char str[] = "ChefSaysHi";
+    int upper_case_count = 3; // 'C', 'S', 'H';
+    int lower_case_count = 7; // 'h', 'e', 'f', 'a', 'y', 's', 'i'
+    printf("%d %d", upper_case_count, lower_case_count);
     return 0;
 }
