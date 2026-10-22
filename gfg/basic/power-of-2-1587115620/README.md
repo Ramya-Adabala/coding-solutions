@@ -32,7 +32,7 @@ Explanation: 1 is equal to 2 raised to 0 (20 = 1).
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T16:56:06.550Z  
+**Submitted:** 2026-10-22T15:28:34.852Z  
 
 ```java
 class Solution {
