@@ -14,14 +14,14 @@ class Codechef
 		    int x=sc.nextInt();
 		    int y=sc.nextInt();
 		    int z=sc.nextInt();
-		    if(s==z){
-		        System.out.println(2);
-		    }
-		    else if(s>=(x+y+z)){
+		    if((s-(x+y))>=z){
 		        System.out.println(0);
 		    }
-		    else {
+		    else if((s - x >= z) || (s - y >= z)){
 		        System.out.println(1);
+		    }
+		    else {
+		        System.out.println(2);
 		    }
 		}
 
