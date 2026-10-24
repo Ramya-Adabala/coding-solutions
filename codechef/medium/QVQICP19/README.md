@@ -4,30 +4,46 @@
 
 ## Problem
 
-### Logging User Authentication
+### Javadoc Comment
 
-In this example, we demonstrate how comments in Java help improve code readability by explaining different parts of the program.
+Which syntax is used to write a Javadoc comment in Java?
 
-Comments are used to describe the authentication process in a Java program. They indicate each stage, such as validating credentials and granting access, making the code easier to understand. Java supports single-line comments (`//`) for brief explanations.
-
-When executed, the code will display authentication status updates step by step.
+ **Option 1** :
 
 ```
-Starting user authentication...  
-Validating user credentials...  
-Access granted.  
-User authentication completed. 
+// This is a Javadoc comment
+
+```
+
+ **Option 2** :
+
+```
+/ *This is a Javadoc comment* /
+
+```
+
+ **Option 3** :
+
+```
+/** This is a Javadoc comment */
+
+```
+
+ **Option 4** :
+
+```
+<!—This is a Javadoc comment —>
 
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T14:14:34.136Z  
+**Submitted:** 2026-10-24T14:14:51.248Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Start of user authentication process
