@@ -51,9 +51,9 @@ Explanation: "z" does not occur in any of the words. Hence, we return an empty a
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 48.07%)  
-**Memory:** 46.8 MB (beats 36.97%)  
-**Submitted:** 2026-08-21T10:23:58.795Z  
+**Runtime:** 3 ms (beats 11.42%)  
+**Memory:** 45.8 MB (beats 98.85%)  
+**Submitted:** 2026-10-24T04:52:43.418Z  
 
 ```java
 class Solution {
