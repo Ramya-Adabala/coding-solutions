@@ -41,7 +41,7 @@ Which syntax is used to write a Javadoc comment in Java?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T14:14:51.248Z  
+**Submitted:** 2026-10-24T14:14:54.839Z  
 
 ```cpp
 class Codechef {
