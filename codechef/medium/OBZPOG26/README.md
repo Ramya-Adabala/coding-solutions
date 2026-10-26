@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-25T03:34:01.779Z  
+**Submitted:** 2026-10-26T00:18:15.018Z  
 
 ```java
 class Codechef {
