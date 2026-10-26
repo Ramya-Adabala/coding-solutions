@@ -27,7 +27,7 @@ Seconds in a Year: 31536000
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T00:22:06.026Z  
+**Submitted:** 2026-10-26T00:31:09.688Z  
 
 ```java
 class Codechef {
