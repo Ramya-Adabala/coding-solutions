@@ -28,18 +28,23 @@ Branch Code: 3052
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T16:56:56.304Z  
+**Submitted:** 2026-10-26T00:31:26.583Z  
 
 ```java
- class Codechef{
-    public static void main(String[] args){
-        // Cook your dish here 
-        long transactionID=5123456789000L;
-        short branchCode=3052;
-        System.out.println("Transaction ID: "+transactionID);
-        System.out.println("Branch Code: "+branchCode);
+class Codechef {
+    public static void main(String[] args) {
+        // Declare and assign transaction ID
+        long transactionID = 5_123_456_789_000L;  // Large transaction ID
+
+        // Declare and assign branch code
+        short branchCode = 3052;  // Small branch code
+
+        // Print both values
+        System.out.println("Transaction ID: " + transactionID);
+        System.out.println("Branch Code: " + branchCode);
     }
 }
+
 ```
 
 ---
