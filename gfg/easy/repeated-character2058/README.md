@@ -29,7 +29,7 @@ Explanation: No repeating character present, so return '#'.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-20T13:21:12.827Z  
+**Submitted:** 2026-10-27T00:53:45.894Z  
 
 ```java
 class Solution {
