@@ -52,7 +52,7 @@ System.out.println("Account Number: " + accountNumber + ", PIN: " + pin);
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T09:15:03.110Z  
+**Submitted:** 2026-10-28T09:15:06.404Z  
 
 ```cpp
 class Codechef {
