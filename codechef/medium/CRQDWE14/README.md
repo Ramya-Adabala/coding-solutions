@@ -4,25 +4,34 @@
 
 ## Problem
 
-### Performing Multiplication
+### Understanding the Multiplication Operator
 
-In this example, we demonstrate how to declare integer variables, multiply values, and print the result in Java. The multiplication operator (`*`) allows us to perform calculations efficiently and store the results for later use.
-
- **When executed, the code will show:** 
+What will happen if you run the following Java program?
 
 ```
-Multiplication result: 18
+class Codechef {
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 3;
+        int num3 = 2;
+        int product;
+        
+        product = num1 * num2; 
+
+        System.out.println("Product: " + product);
+    }
+}
 
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T09:18:18.182Z  
+**Submitted:** 2026-10-28T09:18:29.943Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declare and initialize two integer variables
