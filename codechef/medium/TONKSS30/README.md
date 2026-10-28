@@ -4,48 +4,35 @@
 
 ## Problem
 
-### Speed Limit Enforcement System
+### Worked Example - Defining a Fixed Tax Rate
 
-A traffic management system enforces a maximum speed limit on highways to ensure road safety. Since speed limits are fixed and do not change frequently, they should be declared using the final keyword.
+In this example, we will declare a  **constant tax rate**  using the  **`final`**  keyword to ensure its value remains unchanged throughout the program.
+Since tax rates are fixed and do not change frequently, declaring them as `final` prevents accidental modification.
 
- **Steps to Complete** 
-
-- Declare a constant final int SPEED_LIMIT and assign a fixed value 80.
-- Declare an int variable named currentSpeed and assign a value 75.
-- Print both values to verify the speed enforcement system.
-
-Run your code and check the output. Click "Submit" when you're ready!
-
- **Expected Output** 
-If stored and printed correctly, your output should look something like:
+ **When executed, the code will show** :
 
 ```
-Speed Limit: 80 km/h  
-Current Speed: 75 km/h 
+Fixed Tax Rate: 0.18  
 
 ```
-
-Feel free to modify the current speed to test different scenarios!
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T09:15:59.029Z  
+**Submitted:** 2026-10-28T09:15:43.584Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign a fixed speed limit using final
-        final int SPEED_LIMIT = 80;  // Maximum speed limit in km/h
+        
+        // Declaring and assigning a fixed tax rate
+        final float FIXED_RATE = 0.18f;
 
-        // Declare and assign current speed
-        int currentSpeed = 75;  // Current speed of the vehicle
+        // Printing the Fixed Tax Rate
+        System.out.println("Fixed Tax Rate: " + FIXED_RATE);
 
-        // Print the speed limit and current speed
-        System.out.println("Speed Limit: " + SPEED_LIMIT + " km/h");
-        System.out.println("Current Speed: " + currentSpeed + " km/h");
     }
 }
 
