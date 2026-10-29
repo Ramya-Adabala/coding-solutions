@@ -4,16 +4,30 @@
 
 ## Problem
 
-_Description not available._
+### Division Operator
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int num1 = 50;
+        int num2 = 8;
+        double result = num1 / num2;
+        System.out.println("Result: " + result);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T02:50:38.998Z  
+**Submitted:** 2026-10-29T02:51:55.369Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declare integer variables
