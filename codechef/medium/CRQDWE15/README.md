@@ -24,7 +24,7 @@ Write the code and click the "Run" button to check your results.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T09:18:43.448Z  
+**Submitted:** 2026-10-29T02:50:06.303Z  
 
 ```java
 class Codechef {
