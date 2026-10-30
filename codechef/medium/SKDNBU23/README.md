@@ -20,7 +20,7 @@ Distance per section: 30
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T13:13:25.093Z  
+**Submitted:** 2026-10-30T00:14:18.725Z  
 
 ```java
 class Codechef {
