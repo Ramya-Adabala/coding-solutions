@@ -22,7 +22,7 @@ Take two float variables: fuelLevel = 45.5, fuelConsumed = 12.3
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T02:57:59.701Z  
+**Submitted:** 2026-10-30T00:12:37.605Z  
 
 ```java
 class Codechef {
