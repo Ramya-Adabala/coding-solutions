@@ -20,7 +20,7 @@ Remaining Candies: 1
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T10:35:46.922Z  
+**Submitted:** 2026-10-30T00:16:15.842Z  
 
 ```java
 class Codechef {
