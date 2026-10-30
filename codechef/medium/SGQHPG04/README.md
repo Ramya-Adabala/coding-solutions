@@ -4,16 +4,29 @@
 
 ## Problem
 
-_Description not available._
+### Output for Post-increment Operator
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int value = 10;
+        System.out.println(value++);
+        System.out.println(value);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T00:24:53.289Z  
+**Submitted:** 2026-10-30T00:26:33.427Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         int buttonClicks = 0; // Initial click count
