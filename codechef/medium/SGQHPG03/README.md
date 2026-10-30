@@ -22,7 +22,7 @@ Click number: 2
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T10:40:09.767Z  
+**Submitted:** 2026-10-30T00:24:40.733Z  
 
 ```java
 class Codechef {
