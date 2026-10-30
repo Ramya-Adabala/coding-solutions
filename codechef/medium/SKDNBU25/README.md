@@ -25,18 +25,16 @@ totalStorage = 1024000, conversionFactor = 1024
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T13:21:25.077Z  
+**Submitted:** 2026-10-30T00:14:44.910Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
         // Given variables: Total storage in kilobytes and conversion factor
-        int totalStorage=1024000;
-        int conversionFactor=1024;
-
+        long totalStorage = 1024000, conversionFactor = 1024;
 
         // Convert kilobytes to megabytes using /= 
-       totalStorage/=conversionFactor;
+        totalStorage /= conversionFactor;
 
         // Print the updated storage size
         System.out.println(totalStorage);  // Prints the storage size in MB
