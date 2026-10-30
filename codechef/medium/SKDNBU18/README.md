@@ -20,7 +20,7 @@ Total Cost: 60
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T13:10:22.142Z  
+**Submitted:** 2026-10-30T00:13:20.291Z  
 
 ```java
 class Codechef {
