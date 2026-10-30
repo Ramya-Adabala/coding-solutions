@@ -27,17 +27,22 @@ If stored and printed correctly, your output should look something like:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T13:12:44.888Z  
+**Submitted:** 2026-10-30T00:13:53.468Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Cook your dish here
-        double salary=45000.75;
-        double bonusMultiplier=1.10;
-        System.out.println(salary*bonusMultiplier);
+        // Given variables: Initial salary and bonus multiplier
+        double salary = 45000.75, bonusMultiplier = 1.10;
+
+        // Multiply salary by the bonus multiplier using *=
+        salary *= bonusMultiplier;
+
+        // Print the updated salary
+        System.out.println(salary);  // Prints the new salary after applying the bonus
     }
 }
+
 ```
 
 ---
