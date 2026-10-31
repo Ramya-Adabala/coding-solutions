@@ -7,7 +7,7 @@ class Codechef {
         int waterTemperature = 105;
         
         // Check if water is boiling
-        boolean isBoiling =true; // Add your code here
+        boolean isBoiling = waterTemperature > BOILING_POINT;
         
         // Print the result
         System.out.println("Water temperature: " + waterTemperature + "°C");
