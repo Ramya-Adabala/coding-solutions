@@ -4,35 +4,47 @@
 
 ## Problem
 
-_Description not available._
+### Check Employee Attendance Status
+
+In this example, we will work with integer variables to determine whether an employee has attended all working days in a month. Our goal is to use the Not Equal To (`!=`) operator to check if the attendance is incomplete.
+
+ **Steps to follow:** 
+
+- Declare and initialize totalWorkingDays with the value 22.
+- Declare and initialize daysAttended with the value 20.
+- Use the != operator to compare daysAttended with totalWorkingDays and store the result in isAttendanceIncomplete.
+
+ **Expected Output** 
+
+```
+Attendance incomplete: true
+
+```
+
+Complete the given code and click the "Submit" button to see the output.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-31T06:00:49.850Z  
+**Submitted:** 2026-10-31T06:01:52.350Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Total bill amount
-        int totalBill = 500;
+        // Total working days in a month
+        int totalWorkingDays = 22;
 
-        // Amount paid by customer
-        int amountPaid = 450;
+        // Days attended by an employee
+        int daysAttended = 20;
 
         // Using the Not Equal To (!=) operator in a boolean expression
-        boolean isPaymentIncomplete = (amountPaid != totalBill);
+        boolean isAttendanceIncomplete = (daysAttended != totalWorkingDays);
 
         // Printing the result directly
-        System.out.println("Payment incomplete: " + isPaymentIncomplete);
+        System.out.println("Attendance incomplete: " + isAttendanceIncomplete);
 
-        // Another case where the customer pays the full amount
-        amountPaid = 500;
-
-        isPaymentIncomplete = (amountPaid != totalBill);
-        System.out.println("Payment incomplete: " + isPaymentIncomplete);
     }
 }
 ```
