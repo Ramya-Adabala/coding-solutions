@@ -1,16 +1,21 @@
 class Codechef {
     public static void main(String[] args) {
-        // Total working days in a month
-        int totalWorkingDays = 22;
+        // Total bill amount
+        int totalBill = 500;
 
-        // Days attended by an employee
-        int daysAttended = 20;
+        // Amount paid by customer
+        int amountPaid = 450;
 
-        // Complete the comparision
-        boolean isAttendanceIncomplete = true;
+        // Using the Not Equal To (!=) operator in a boolean expression
+        boolean isPaymentIncomplete = (amountPaid != totalBill);
 
         // Printing the result directly
-        System.out.println("Attendance incomplete: " + isAttendanceIncomplete);
+        System.out.println("Payment incomplete: " + isPaymentIncomplete);
 
+        // Another case where the customer pays the full amount
+        amountPaid = 500;
+
+        isPaymentIncomplete = (amountPaid != totalBill);
+        System.out.println("Payment incomplete: " + isPaymentIncomplete);
     }
 }
