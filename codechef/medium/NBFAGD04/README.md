@@ -4,29 +4,36 @@
 
 ## Problem
 
-_Description not available._
+### Compare Student Marks and Grade Messages
+
+Complete the given code using a comparison operator to get the desired output.
+
+ **Expected Output:** 
+
+```
+Does student1 have the same marks as student2? true   
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-31T05:59:49.853Z  
+**Submitted:** 2026-10-31T06:00:20.060Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Comparing Account Numbers (primitive comparison)
-        int accountNumber1 = 12345;
-        int accountNumber2 = 12345;
-
-        System.out.println("Is accountNumber1 equal to accountNumber2? " + (accountNumber1 == accountNumber2)); // true
+        // Comparing Student Marks (primitive comparison)
+        int student1Marks = 85;
+        int student2Marks = 85;
         
-        // Comparing Transaction Messages
-        String transactionMsg1 = "Payment Successful";
-        String transactionMsg2 = "Payment Successful";
+        // write your code below 
+        boolean isMarksEqual =true ;
+        
+        System.out.println("Does student1 have the same marks as student2? " + isMarksEqual); // true
 
-        System.out.println("Is transactionMsg1 equal to transactionMsg2? " + (transactionMsg1 == transactionMsg2)); // true (string literals are interned)
     }
 }
 ```
