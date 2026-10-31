@@ -31,7 +31,7 @@ Complete the given code and click the "Submit" button to see the output.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:29:59.619Z  
+**Submitted:** 2026-10-31T06:02:42.312Z  
 
 ```java
 class Codechef {
@@ -43,7 +43,7 @@ class Codechef {
         int waterTemperature = 105;
         
         // Check if water is boiling
-        boolean isBoiling =true; // Add your code here
+        boolean isBoiling = waterTemperature > BOILING_POINT;
         
         // Print the result
         System.out.println("Water temperature: " + waterTemperature + "°C");
