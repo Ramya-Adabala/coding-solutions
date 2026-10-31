@@ -26,7 +26,7 @@ Update the code in the IDE to solve this problem.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T00:27:52.177Z  
+**Submitted:** 2026-10-31T05:55:17.575Z  
 
 ```java
 class Codechef {
