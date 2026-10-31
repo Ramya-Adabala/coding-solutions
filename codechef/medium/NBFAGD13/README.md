@@ -20,7 +20,7 @@ Over speed? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:28:28.728Z  
+**Submitted:** 2026-10-31T06:02:14.802Z  
 
 ```java
 class Codechef{
