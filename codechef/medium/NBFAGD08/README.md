@@ -21,7 +21,7 @@ Payment incomplete: false
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:26:26.803Z  
+**Submitted:** 2026-10-31T06:00:45.532Z  
 
 ```java
 class Codechef {
