@@ -23,7 +23,7 @@ Remaining Purchases: 3
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:23:49.807Z  
+**Submitted:** 2026-10-31T05:56:56.809Z  
 
 ```java
 class Codechef {
