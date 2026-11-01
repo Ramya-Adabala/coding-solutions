@@ -26,7 +26,7 @@ Is the luggage within the allowed weight? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:14:06.503Z  
+**Submitted:** 2026-11-01T06:10:46.126Z  
 
 ```java
 class Codechef {
@@ -34,12 +34,11 @@ class Codechef {
         int maxWeight = 20;  // Maximum allowed luggage weight (kg)
         int passengerLuggage = 18; // Passenger's luggage weight
 
-        // Write code to compare and print result in given format
-        boolean isAllowed=passengerLuggage<=maxWeight;
-        System.out.println("Is the luggage within the allowed weight?"+isAllowed);
+        boolean isAllowed = passengerLuggage <= maxWeight; // Check if luggage is within limit
+
+        System.out.println("Is the luggage within the allowed weight? " + isAllowed);
     }
 }
-
 ```
 
 ---
