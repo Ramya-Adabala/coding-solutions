@@ -26,7 +26,7 @@ Is the person eligible to vote? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:33:59.370Z  
+**Submitted:** 2026-11-01T06:10:09.360Z  
 
 ```java
 class Codechef {
@@ -34,12 +34,11 @@ class Codechef {
         int legalAge = 18;  // Minimum age to vote
         int personAge = 20; // Age of the person
 
-        // Write code to compare and print result in given format
-        boolean isEligible= personAge>=legalAge;
-        System.out.println("Is the person eligible to vot?"+ isEligible);
+        boolean canVote = personAge >= legalAge; // Store result in variable
+
+        System.out.println("Is the person eligible to vote? " + canVote);
     }
 }
-
 ```
 
 ---
