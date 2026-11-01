@@ -4,22 +4,40 @@
 
 ## Problem
 
-_Description not available._
+### Check if Battery is Low
+
+In this example, we will check whether a device's battery level is below a defined threshold.
+Our goal is to use the  **less than (`<`)**  operator to determine if the battery is low.
+
+ **Steps to follow:** 
+
+- Declare and initialize lowBatteryLevel with the value 20 (minimum battery level).
+- Declare and initialize currentBattery with the value 15.
+- Compare currentBattery with lowBatteryLevel using < and store the result in isBatteryLow.
+- Print the result in the format as per the expected output below
+
+ **Expected Output** 
+
+```
+Battery low? true
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-01T06:09:23.620Z  
+**Submitted:** 2026-11-01T06:09:38.160Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        int minTemperature = 10;  // Minimum safe temperature
-        int currentTemperature = 5; // Current temperature
-
-        System.out.println("Is temperature too low? " + (currentTemperature < minTemperature));
+        int lowBatteryLevel = 20;  // Minimum battery level
+        int currentBattery = 15;   // Current battery percentage
+        
+        boolean isBatterLow = currentBattery < lowBatteryLevel;
+        System.out.println("Battery low? " + isBatterLow);
     }
 }
 ```
