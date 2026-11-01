@@ -1,12 +1,8 @@
 class Codechef {
     public static void main(String[] args) {
-        int lowBatteryLevel = 20;  // Minimum battery level
-        int currentBattery = 15;   // Current battery percentage
-        
-        boolean isBatterLow = true; // Add code here to compare
-        
-        // Write statement to print the result
-        System.out.println("Battery low?"+ isBatterLow);
-        
+        int minTemperature = 10;  // Minimum safe temperature
+        int currentTemperature = 5; // Current temperature
+
+        System.out.println("Is temperature too low? " + (currentTemperature < minTemperature));
     }
 }
