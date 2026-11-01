@@ -29,7 +29,7 @@ Write the code and click on the "Submit" button to see the output.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:20:54.812Z  
+**Submitted:** 2026-11-01T06:12:24.890Z  
 
 ```java
 class Codechef {
@@ -43,10 +43,10 @@ class Codechef {
         // Step 3: Evaluate the loan eligibility using the OR operator
         // The applicant is eligible if their credit score is 700 or higher,
         // OR their monthly income is 50,000 or higher
-    boolean isEligible=(creditScore >= 700) || (monthlyIncome >= 50000);
+        boolean isEligibleForLoan = (creditScore >= 700) || (monthlyIncome >= 50000);
 
         // Step 4: Display the loan eligibility result
-        System.out.println("Eligible for Loan: " + isEligible);
+        System.out.println("Eligible for Loan: " + isEligibleForLoan); // Output: true
     }
 }
 
