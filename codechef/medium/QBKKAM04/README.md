@@ -4,28 +4,16 @@
 
 ## Problem
 
-### Gym Membership Validation
-
-A gym allows entry only if a person has a valid membership and is wearing proper workout shoes.
-
-Given the following code snippet:
-
-```
-boolean hasMembership = true;
-boolean wearingShoes = false;
-
-boolean canEnterGym = hasMembership && wearingShoes;
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-01T06:11:33.097Z  
+**Submitted:** 2026-11-01T06:11:21.239Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Step 1: Check attendance for the morning class
