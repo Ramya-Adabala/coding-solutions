@@ -20,7 +20,7 @@ Is it the weekend? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:19:28.039Z  
+**Submitted:** 2026-11-01T06:12:02.327Z  
 
 ```java
 class Codechef {
