@@ -20,7 +20,7 @@ Full Day Attendance: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:14:53.462Z  
+**Submitted:** 2026-11-01T06:11:20.062Z  
 
 ```java
 class Codechef {
