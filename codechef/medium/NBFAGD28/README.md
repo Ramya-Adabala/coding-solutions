@@ -20,7 +20,7 @@ Is the vehicle within the speed limit? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:12:42.678Z  
+**Submitted:** 2026-11-01T06:10:26.969Z  
 
 ```java
 class Codechef {
