@@ -21,7 +21,7 @@ boolean alarmTriggered = !isDoorLocked;
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:21:23.580Z  
+**Submitted:** 2026-11-01T06:12:53.740Z  
 
 ```cpp
 class Codechef {
