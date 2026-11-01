@@ -20,7 +20,7 @@ Is the door unlocked? false
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:21:16.099Z  
+**Submitted:** 2026-11-01T06:12:45.205Z  
 
 ```java
 class Codechef {
