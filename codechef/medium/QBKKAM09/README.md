@@ -21,7 +21,7 @@ boolean canRetake = failedExam || hasApproval;
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T12:19:34.541Z  
+**Submitted:** 2026-11-01T06:12:11.434Z  
 
 ```cpp
 class Codechef {
