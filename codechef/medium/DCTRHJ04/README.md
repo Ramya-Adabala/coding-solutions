@@ -4,54 +4,16 @@
 
 ## Problem
 
-### Snippets Choice
-
-Which of the following code snippets correctly demonstrates declaring and initializing a String in Java?
-
- **Option A.** 
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        string city = "Paris"; 
-        System.out.println(city);
-    }
-}
-
-```
-
- **Option B.** 
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        String name = "Alice"; 
-        System.out.println(name);
-    }
-}
-
-```
-
- **Option C.** 
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        String status;
-        System.out.println(status);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:06:21.370Z  
+**Submitted:** 2026-11-02T03:02:34.458Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Declaring and initializing the username
