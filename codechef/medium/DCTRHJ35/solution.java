@@ -6,10 +6,12 @@ class Codechef {
         double productPrice = 249.99;
         int productId = 1024;
 
-        // Complete the below code
-        boolean isMatch = review1.equals(review2);
-        System.out.println("Product ID: "+productId);
-        System.out.println("Product Price: "+productPrice);
-        System.out.println("Review Match: "+isMatch);
+        // Comparing reviews using equalsIgnoreCase()
+        boolean isMatch = review1.equalsIgnoreCase(review2);
+
+        // Printing details
+        System.out.println("Product ID: " + productId);
+        System.out.println("Product Price: $" + productPrice);
+        System.out.println("Review Match: " + isMatch);
     }
 }
