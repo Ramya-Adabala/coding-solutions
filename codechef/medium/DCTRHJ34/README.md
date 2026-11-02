@@ -4,32 +4,16 @@
 
 ## Problem
 
-### Output for String Comparison
-
-What will be the output of the following Java code?
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        String greeting1 = "Hello";
-        String greeting2 = "HELLO";
-        String greeting3 = "Hello World";
-        
-        System.out.println(greeting1.equalsIgnoreCase(greeting2)); // Compare greeting1 and greeting2
-        System.out.println(greeting1.equalsIgnoreCase(greeting3)); // Compare greeting1 and greeting3
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:03:56.899Z  
+**Submitted:** 2026-11-02T14:18:32.461Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Declaring the correct password and the user input
