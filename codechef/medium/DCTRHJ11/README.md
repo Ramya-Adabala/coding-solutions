@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:22:19.541Z  
+**Submitted:** 2026-11-02T03:04:42.459Z  
 
 ```java
 class Codechef {
@@ -23,14 +23,12 @@ class Codechef {
         int englishMarks = 70;  // Marks in English
 
         // Calculate total score
-int total=mathMarks+scienceMarks+englishMarks;
+        int totalScore = mathMarks + scienceMarks + englishMarks;
 
         // Output the student information and total score
-  System.out.println("Student Name: "+studentName);
-  System.out.println("Total Score: "+total);
-  System.out.println("Score calculation completed.");
-
-
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Total Score: " + totalScore);
+        System.out.println("Score calculation completed.");
     }
 }
 
