@@ -23,7 +23,7 @@ Review Match: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:05:26.334Z  
+**Submitted:** 2026-11-02T14:19:00.677Z  
 
 ```java
 class Codechef {
@@ -34,11 +34,13 @@ class Codechef {
         double productPrice = 249.99;
         int productId = 1024;
 
-        // Complete the below code
-        boolean isMatch = review1.equals(review2);
-        System.out.println("Product ID: "+productId);
-        System.out.println("Product Price: "+productPrice);
-        System.out.println("Review Match: "+isMatch);
+        // Comparing reviews using equalsIgnoreCase()
+        boolean isMatch = review1.equalsIgnoreCase(review2);
+
+        // Printing details
+        System.out.println("Product ID: " + productId);
+        System.out.println("Product Price: $" + productPrice);
+        System.out.println("Review Match: " + isMatch);
     }
 }
 
