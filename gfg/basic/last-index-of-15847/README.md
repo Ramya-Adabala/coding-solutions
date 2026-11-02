@@ -26,7 +26,7 @@ Explanation: Since, 1 is not present, so output is -1.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-13T15:35:25.894Z  
+**Submitted:** 2026-11-02T05:33:46.932Z  
 
 ```java
 // User function Template for Java
