@@ -7,13 +7,11 @@ class Codechef {
         int englishMarks = 70;  // Marks in English
 
         // Calculate total score
-int total=mathMarks+scienceMarks+englishMarks;
+        int totalScore = mathMarks + scienceMarks + englishMarks;
 
         // Output the student information and total score
-  System.out.println("Student Name: "+studentName);
-  System.out.println("Total Score: "+total);
-  System.out.println("Score calculation completed.");
-
-
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Total Score: " + totalScore);
+        System.out.println("Score calculation completed.");
     }
 }
