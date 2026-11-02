@@ -1,4 +1,4 @@
-# Sort a String
+# Sort String
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Basic-red)
 
@@ -11,27 +11,22 @@ Given a string consisting of lowercase letters, arrange all its letters in ascen
 ```
 Input: s = "edcab"
 Output: "abcde"
-Explanation: characters are in ascending
-order in "abcde".
+Explanation: characters are in ascending order in "abcde".
 
 ```
 
 ```
 Input: s = "xzy"
 Output: "xyz"
-Explanation: characters are in ascending
-order in "xyz".
+Explanation: characters are in ascending order in "xyz".
 ```
-
- **Constraints:** 
-1 ≤ |s| ≤ 105
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T11:19:24.512Z  
+**Submitted:** 2026-11-02T14:19:59.350Z  
 
 ```java
 // User function Template for Java
