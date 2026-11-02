@@ -20,7 +20,7 @@ Is the password correct? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:03:36.258Z  
+**Submitted:** 2026-11-02T14:18:29.629Z  
 
 ```java
 class Codechef {
