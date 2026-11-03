@@ -28,7 +28,7 @@ true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:11:46.199Z  
+**Submitted:** 2026-11-03T10:50:33.663Z  
 
 ```java
 class Codechef {
@@ -37,8 +37,8 @@ class Codechef {
         String fileName = "Document.PDF";
 
         // Step 2: Extract the file extension starting from index 9
-String fileExtension=fileName.substring(9);
 
+String fileExtension=fileName.substring(9);
         // Step 3: Compare the extracted file extension with "pdf" in a case-insensitive manner
         System.out.println(fileExtension.equalsIgnoreCase("pdf"));
     }
