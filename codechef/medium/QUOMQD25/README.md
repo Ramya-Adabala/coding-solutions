@@ -27,7 +27,7 @@ Is 'p' before 'e'? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T03:52:49.701Z  
+**Submitted:** 2026-11-03T10:54:40.039Z  
 
 ```java
 class Codechef {
@@ -39,10 +39,11 @@ class Codechef {
         int indexOfE = sentence.indexOf('e');
 
         // Compare indices using relational operators
-        boolean isPBeforeE =indexOfP<indexOfE;
-
+        boolean isPBeforeE =indexOfP <indexOfE
+;
         // Print the comparison result
-System.out.println("Is 'p' before 'e'? " + isPBeforeE);
+               System.out.println("Is 'p' before 'e'? " + isPBeforeE);
+
     }
 }
 
