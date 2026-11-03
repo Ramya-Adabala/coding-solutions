@@ -20,7 +20,7 @@ The total number of characters in the sentence is: 21
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:08:47.715Z  
+**Submitted:** 2026-11-03T10:47:54.054Z  
 
 ```java
 class Codechef {
