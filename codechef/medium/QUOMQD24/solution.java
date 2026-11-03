@@ -4,11 +4,10 @@ class Codechef {
         String text = "Version 2.0";
 
         // Find the index of the first occurrence of the digit '2'
-        int indexOfDigit=text.indexOf('2');
-
+ int n=text.indexOf('2');
 
         // Print the result
-        System.out.println("The index of '2' is: " + indexOfDigit);
+        System.out.println("The index of '2' is: " + n);
 
     }
 }
