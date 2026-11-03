@@ -20,7 +20,7 @@ Name without prefix: John Smith
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:10:20.156Z  
+**Submitted:** 2026-11-03T10:49:40.089Z  
 
 ```java
 class Codechef {
