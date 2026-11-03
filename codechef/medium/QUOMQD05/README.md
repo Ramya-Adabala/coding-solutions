@@ -20,7 +20,7 @@ The length of the string is 10
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:09:39.092Z  
+**Submitted:** 2026-11-03T10:48:42.676Z  
 
 ```java
 class Codechef {
@@ -28,8 +28,7 @@ class Codechef {
         
         String key = "SecurePass";
         // write your code here
-        System.out.println("The length of the string is "+key.length());
-      
+      System.out.println("The length of the string is "+ key.length());
         
     }
 }
