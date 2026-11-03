@@ -4,39 +4,32 @@
 
 ## Problem
 
-### Finding the First Appearance of a Word
-
-Complete the program by filling in the missing part to find the first occurrence of a specific word in a sentence using the `indexOf()` method. This method helps locate the position of a word within a larger string.
-
-Find the index of the first occurrence of `'Java'`.
-
- **Expected Output:** 
-
-```
-The first occurrence of 'Java' is at index: 9
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:23:50.725Z  
+**Submitted:** 2026-11-03T10:55:01.201Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Define a string
-        String sentence = "Learning Java is fun. Java is powerful.";
+        
+        // This is the string where we will search for the substring "www"
+        String url = "https://www.example.com";
 
-        // Find the first occurrence of the word "Java" using indexOf()
-        int firstIndexOfJava = sentence.indexOf('J');// Your code here
+        // The indexOf() method searches for the first occurrence of the substring "www"
+        // It returns the starting index of the substring in the string
+        // If "www" is not found, it will return -1
+        int indexOfWWW = url.indexOf("www");
 
-        // Print the result
-        System.out.println("The first occurrence of 'Java' is at index: " + firstIndexOfJava);
+        // Display the index of the substring "www" or -1 if it is not found
+        System.out.println("The index of 'www' is: " + indexOfWWW);
     }
 }
+
 ```
 
 ---
