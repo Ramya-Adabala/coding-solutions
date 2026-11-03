@@ -22,7 +22,7 @@ str2 == str3: false
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T14:19:19.877Z  
+**Submitted:** 2026-11-03T10:46:11.068Z  
 
 ```java
 class Codechef {
