@@ -20,7 +20,7 @@ Initials: JD
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T14:09:53.315Z  
+**Submitted:** 2026-11-03T10:48:55.037Z  
 
 ```java
 class Codechef {
