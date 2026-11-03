@@ -20,7 +20,7 @@ The index of 'o' is: 2
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T03:50:15.456Z  
+**Submitted:** 2026-11-03T10:51:28.100Z  
 
 ```java
 class Codechef {
