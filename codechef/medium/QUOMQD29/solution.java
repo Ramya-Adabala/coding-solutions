@@ -1,12 +1,15 @@
 class Codechef {
     public static void main(String[] args) {
-        // Define a string
-        String sentence = "Learning Java is fun. Java is powerful.";
+        
+        // This is the string where we will search for the substring "www"
+        String url = "https://www.example.com";
 
-        // Find the first occurrence of the word "Java" using indexOf()
-        int firstIndexOfJava = sentence.indexOf('J');// Your code here
+        // The indexOf() method searches for the first occurrence of the substring "www"
+        // It returns the starting index of the substring in the string
+        // If "www" is not found, it will return -1
+        int indexOfWWW = url.indexOf("www");
 
-        // Print the result
-        System.out.println("The first occurrence of 'Java' is at index: " + firstIndexOfJava);
+        // Display the index of the substring "www" or -1 if it is not found
+        System.out.println("The index of 'www' is: " + indexOfWWW);
     }
 }
