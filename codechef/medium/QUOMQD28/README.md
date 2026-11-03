@@ -20,7 +20,7 @@ The index of 'www' is: 8
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:21:51.429Z  
+**Submitted:** 2026-11-03T10:54:59.649Z  
 
 ```java
 class Codechef {
