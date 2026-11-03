@@ -3,8 +3,7 @@ class Codechef {
         
         String key = "SecurePass";
         // write your code here
-        System.out.println("The length of the string is "+key.length());
-      
+      System.out.println("The length of the string is "+ key.length());
         
     }
 }
