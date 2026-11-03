@@ -25,18 +25,22 @@ HP
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T03:49:43.939Z  
+**Submitted:** 2026-11-03T10:51:14.247Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        
-        // write your code here
+        //  Define a string
         String productDescription = "Laptop HP Pavilion";
-        String brand=productDescription.substring(7,9);
+
+        // Extract the brand name starting from index 7
+        String brand = productDescription.substring(7, 9);
+
+
         System.out.println(brand);
     }
 }
+
 ```
 
 ---
