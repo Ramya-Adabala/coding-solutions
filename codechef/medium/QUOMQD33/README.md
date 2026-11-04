@@ -20,7 +20,7 @@ The last occurrence of 'Error' is at index: 23
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:26:53.502Z  
+**Submitted:** 2026-11-04T05:01:00.529Z  
 
 ```java
 class Codechef {
