@@ -4,16 +4,28 @@
 
 ## Problem
 
-_Description not available._
+### Case Sensitivity
+
+Consider the following code:
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        String text = "Java is Fun!";
+        System.out.println(text.contains("java"));
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T05:01:47.058Z  
+**Submitted:** 2026-11-04T05:01:57.112Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Define and initialize a string variable
