@@ -78,7 +78,7 @@ Use the $5$-rupee coin and three $1$-rupee coins.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T14:50:15.969Z  
+**Submitted:** 2026-11-04T14:51:42.569Z  
 
 ```java
 import java.util.*;
@@ -90,7 +90,13 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		if(n<5)System.out.println(n);
+   else{
+       int s=n-5;
+       System.out.println(s+1);
+   }
 	}
 }
 
