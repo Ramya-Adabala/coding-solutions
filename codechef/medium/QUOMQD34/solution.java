@@ -1,13 +1,14 @@
 class Codechef {
     public static void main(String[] args) {
-        // Define a filePath string
-        String filePath = "C:\\Users\\Documents\\myFile.java";
+        
+        // This is the log message where we want to search for the substring "Error"
+        String log = "Error: File not found. Error: Permission denied.";
 
-        // Find the last occurrence of the dot
-        int lastIndexOfDot =filePath.lastIndexOf("."); // your code here
+        // This method searches for the substring starting from the end of the string and moves backward
+        int lastIndexOfError = log.lastIndexOf("Error");
 
-        // Print the result
-        System.out.println("The last dot is at index: " + lastIndexOfDot);
+        // Display the index of the last occurrence of the substring "Error"
+        System.out.println("The last occurrence of 'Error' is at index: " + lastIndexOfError);
 
     }
 }
