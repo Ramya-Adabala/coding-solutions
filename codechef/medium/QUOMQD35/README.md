@@ -22,7 +22,7 @@ The last word is: example.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:32:47.095Z  
+**Submitted:** 2026-11-04T05:01:28.730Z  
 
 ```java
 class Codechef {
@@ -31,13 +31,13 @@ class Codechef {
         String text = "This is a simple example.";
 
         // Find the last space in the string
-                int lastIndexOfSpace=text.lastIndexOf(" ");
+        int lastIndexOfSpace = text.lastIndexOf(" ");
 
         // Extract the last word
-    String lastWord=text.substring(lastIndexOfSpace +1);
+        String lastWord = text.substring(lastIndexOfSpace + 1);
 
         // Print the result
-System.out.println("The last word is: "+lastWord);
+        System.out.println("The last word is: " + lastWord);
     }
 }
 
