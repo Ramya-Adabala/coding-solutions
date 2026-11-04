@@ -4,42 +4,36 @@
 
 ## Problem
 
-### Searching for the Last Dot in a File Path
+### Checking for the Last Occurrence of a Substring
 
-Complete the program by filling in the missing parts to find the last occurrence of a dot (`.`) in a file path using the `lastIndexOf()` method. This will help locate the file extension or other important information from the file path.
+In this example, we demonstrate how to use the `lastIndexOf()` method to find the last occurrence of a substring within a string. This method helps identify the position of the last occurrence of a substring, searching from the end of the string.
 
-```
-String filePath = "C:\\Users\\Documents\\myFile.java";
-
-```
-
- **Expected Output:** 
+ **When executed, the code will show:** 
 
 ```
-The last dot is at index: 25
+The last occurrence of 'Error' is at index: 23
 
 ```
-
- **If you think the answer is 28, that’s incorrect, because as we studied in escape sequences, // is treated as a single character.**
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:27:40.490Z  
+**Submitted:** 2026-11-04T05:01:02.077Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Define a filePath string
-        String filePath = "C:\\Users\\Documents\\myFile.java";
+        
+        // This is the log message where we want to search for the substring "Error"
+        String log = "Error: File not found. Error: Permission denied.";
 
-        // Find the last occurrence of the dot
-        int lastIndexOfDot =filePath.lastIndexOf("."); // your code here
+        // This method searches for the substring starting from the end of the string and moves backward
+        int lastIndexOfError = log.lastIndexOf("Error");
 
-        // Print the result
-        System.out.println("The last dot is at index: " + lastIndexOfDot);
+        // Display the index of the last occurrence of the substring "Error"
+        System.out.println("The last occurrence of 'Error' is at index: " + lastIndexOfError);
 
     }
 }
