@@ -21,17 +21,12 @@ Output: 4
 Explanation: The 4 elements are 1, 2, 2 and 2.
 ```
 
- **Constraints:** 
-1 <= arr.size() <= 105
-1 <= ai <= 105
-0 <= x <= 105
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T14:04:45.115Z  
+**Submitted:** 2026-11-04T04:58:24.922Z  
 
 ```java
 
