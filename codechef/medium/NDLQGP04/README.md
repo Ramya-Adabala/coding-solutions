@@ -32,7 +32,7 @@ Book Title in Uppercase: JAVA PROGRAMMING
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:51:19.267Z  
+**Submitted:** 2026-11-04T05:06:08.637Z  
 
 ```cpp
 class Codechef {
