@@ -25,7 +25,7 @@ Does not start with 'Hello': true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:46:48.747Z  
+**Submitted:** 2026-11-04T05:03:14.200Z  
 
 ```java
 class Codechef {
@@ -35,11 +35,10 @@ class Codechef {
 
         // Use the startsWith() method combined with the NOT operator (!)
         // to check if the message does NOT start with the word "Hello"
-           boolean check=!message.startsWith("Hello");
+        boolean doesNotStartWithHello = !message.startsWith("Hello");
 
         // Output the result of the check
-        System.out.println("Does not start with 'Hello': " + check); 
-
+        System.out.println("Does not start with 'Hello': " + doesNotStartWithHello); 
     }
 }
 
