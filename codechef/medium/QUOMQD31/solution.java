@@ -4,10 +4,10 @@ class Codechef {
         String word = "unhappy";
 
         // Check if the word starts with the prefix "un"
-        int prefixIndex =word.indexOf("un") ;
-        boolean startsWithUn = prefixIndex==0;
+        int prefixIndex = word.indexOf("un");
+        boolean startsWithUn = prefixIndex == 0;
 
         // Print the result
-System.out.println("Does the word start with 'un'? "+startsWithUn);
+        System.out.println("Does the word start with 'un'? " + startsWithUn);
     }
 }
