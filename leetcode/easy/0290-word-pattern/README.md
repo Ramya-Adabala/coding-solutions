@@ -53,9 +53,9 @@ The bijection can be established as:
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 12.46%)  
-**Memory:** 42.9 MB (beats 18.37%)  
-**Submitted:** 2026-09-05T10:24:48.336Z  
+**Runtime:** 2 ms (beats 13.77%)  
+**Memory:** 42.1 MB (beats 94.02%)  
+**Submitted:** 2026-11-04T04:59:59.565Z  
 
 ```java
 class Solution {
