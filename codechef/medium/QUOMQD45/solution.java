@@ -5,10 +5,9 @@ class Codechef {
 
         // Use the startsWith() method combined with the NOT operator (!)
         // to check if the message does NOT start with the word "Hello"
-           boolean check=!message.startsWith("Hello");
+        boolean doesNotStartWithHello = !message.startsWith("Hello");
 
         // Output the result of the check
-        System.out.println("Does not start with 'Hello': " + check); 
-
+        System.out.println("Does not start with 'Hello': " + doesNotStartWithHello); 
     }
 }
