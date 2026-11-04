@@ -21,7 +21,7 @@ Ends with '.org': false
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:47:15.247Z  
+**Submitted:** 2026-11-04T05:03:29.474Z  
 
 ```java
 class Codechef {
