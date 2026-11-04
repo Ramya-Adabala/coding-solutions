@@ -23,7 +23,7 @@ URL starts with 'ftp://': false
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:38:36.643Z  
+**Submitted:** 2026-11-04T05:02:56.994Z  
 
 ```java
 class Codechef {
@@ -32,13 +32,13 @@ class Codechef {
         String url = "https://www.example.com";
         
         // Check if the URL starts with "http://"
-   boolean isHttp=url.startsWith("http://");
+        boolean isHttp = url.startsWith("http://");
         
         // Check if the URL starts with "https://"
-boolean isHttps=url.startsWith("https://");
+        boolean isHttps = url.startsWith("https://");
         
         // Check if the URL starts with "ftp://"
-boolean isFtp=url.startsWith("ftp://");
+        boolean isFtp = url.startsWith("ftp://");
         
         // Print the results for each protocol check
         System.out.println("URL starts with 'http://': " + isHttp);  // Output: false
