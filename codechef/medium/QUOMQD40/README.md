@@ -25,7 +25,7 @@ Contains both keywords: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T09:34:56.992Z  
+**Submitted:** 2026-11-04T05:02:18.830Z  
 
 ```java
 class Codechef {
@@ -35,12 +35,10 @@ class Codechef {
         
         // Use the contains() method with the logical AND operator (&&)
         // to check if the article contains both the keywords 'Java' and 'programming'
-       boolean containsWord=article.contains("Java") && article.contains("programming");
-
+        boolean containsBoth = article.contains("Java") && article.contains("programming");
         
         // Print the result, which will be true if both keywords are present, otherwise false
-        System.out.println("Contains both keywords: "+containsWord);
-
+        System.out.println("Contains both keywords: " + containsBoth);
     }
 }
 
