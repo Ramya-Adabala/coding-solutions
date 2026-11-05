@@ -29,7 +29,7 @@ Explanation: After the first operation, the remaining integers are: 3 6 9 12 15 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T13:11:06.703Z  
+**Submitted:** 2026-11-05T05:39:18.129Z  
 
 ```java
 class Solution {
