@@ -23,7 +23,7 @@ The fourth word in the sentence is: easier
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:15:32.935Z  
+**Submitted:** 2026-11-05T05:14:00.711Z  
 
 ```java
 class Codechef {
