@@ -47,7 +47,7 @@ Rating: 1
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T08:47:00.063Z  
+**Submitted:** 2026-11-05T05:14:43.618Z  
 
 ```java
 class Codechef {
@@ -64,28 +64,23 @@ class Codechef {
 
         // Review 1
         String[] parts1 = reviews[0].split(":");
-        System.out.println("Product ID: "+parts1[0]);
-        System.out.println("Review: "+parts1[1]);
-        System.out.println("Rating: "+parts1[2]);
+        System.out.println("Product ID: " + parts1[0]);
+        System.out.println("Review: " + parts1[1]);
+        System.out.println("Rating: " + parts1[2]);
         System.out.println();
 
         // Review 2
         String[] parts2 = reviews[1].split(":");
-        // Complete the code
-        System.out.println("Product ID: "+parts2[0]);
-        System.out.println("Review: "+parts2[1]);
-        System.out.println("Rating: "+parts2[2]);
-        
-        
+        System.out.println("Product ID: " + parts2[0]);
+        System.out.println("Review: " + parts2[1]);
+        System.out.println("Rating: " + parts2[2]);
         System.out.println();
 
         // Review 3
         String[] parts3 = reviews[2].split(":");
-        System.out.println("Product ID: "+parts3[0]);
-        System.out.println("Review: "+parts3[1]);
-        System.out.println("Rating: "+parts3[2]);
-        
-        
+        System.out.println("Product ID: " + parts3[0]);
+        System.out.println("Review: " + parts3[1]);
+        System.out.println("Rating: " + parts3[2]);
         System.out.println();
     }
 }
