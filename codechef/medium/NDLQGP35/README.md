@@ -25,7 +25,7 @@ Formatted Review 3: Great value for money. Works as expected. Will buy again.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T08:52:08.170Z  
+**Submitted:** 2026-11-05T05:16:35.645Z  
 
 ```java
 class Codechef {
@@ -36,20 +36,14 @@ class Codechef {
         String rawReview3 = "Great value for money.,Works as expected.,Will buy again.";
         
         // Write your code here
-  String []parts1=rawReview1.split(",");
-  String formatted1=String.join(" ",parts1);
-  
-  String []parts2=rawReview2.split(",");
-  String formatted2=String.join(" ",parts2);
-  
-  String []parts3=rawReview3.split(",");
-  String formatted3=String.join(" ",parts3);
-  
+        String[] parts1 = rawReview1.split(",");
+        String formatted1 = String.join(" ", parts1);
 
+        String[] parts2 = rawReview2.split(",");
+        String formatted2 = String.join(" ", parts2);
 
-
-
-
+        String[] parts3 = rawReview3.split(",");
+        String formatted3 = String.join(" ", parts3);
 
         // Print the formatted reviews
         System.out.println("Formatted Review 1: " + formatted1);
