@@ -31,7 +31,7 @@ Calculated Simple Interest is: 550.0
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T09:19:40.442Z  
+**Submitted:** 2026-11-05T05:18:01.869Z  
 
 ```java
 class Codechef {
@@ -45,19 +45,16 @@ class Codechef {
 
 
         // Convert string inputs to appropriate data types
-   int principal=Integer.parseInt(principalStr);
-   double rate =Double.parseDouble(rateStr);
-   int time=Integer.parseInt(timeStr);
-
-
+        int principal = Integer.parseInt(principalStr);
+        double rate = Double.parseDouble(rateStr);
+        int time = Integer.parseInt(timeStr);
 
         // Calculate Simple Interest
-      double si=(principal*rate*time)/100;
+        double simpleInterest = (principal * rate * time) / 100;
 
         // Convert other values to strings for display
-
-  String customerIdStr=String.valueOf(customerId);
-  String accountTypeStr=Character.toString(accountType);
+        String customerIdStr = String.valueOf(customerId);
+        String accountTypeStr = Character.toString(accountType);
 
         // Print the results
         System.out.println("Principal amount is: " + principal);
@@ -65,7 +62,7 @@ class Codechef {
         System.out.println("Time period is: " + time + " years");
         System.out.println("Customer ID as string: " + customerIdStr);
         System.out.println("Account type as string: " + accountTypeStr);
-        System.out.println("Calculated Simple Interest is: " + si);
+        System.out.println("Calculated Simple Interest is: " + simpleInterest);
         
     }
 }
