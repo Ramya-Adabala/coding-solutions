@@ -20,7 +20,7 @@ Lowercase Book: it ends with us
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:00:28.727Z  
+**Submitted:** 2026-11-05T04:59:48.707Z  
 
 ```java
 class Codechef {
