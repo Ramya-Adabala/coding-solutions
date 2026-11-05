@@ -4,44 +4,34 @@
 
 ## Problem
 
-### Splitting Text Data Using Multiple Delimiters
-
-A data management system processes log entries from various sources. These logs contain timestamps separated by multiple separators.
-
- **Steps to Complete:** 
-
-- Use the split() method to split log entry using multiple delimiters (:, ;).
-- Display the desired results.
-
- **Expected Output:** 
-
-```
-Timestamp: 12  
-Minutes: 30  
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T07:19:03.346Z  
+**Submitted:** 2026-11-05T05:14:08.266Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
         
-        // Example log entry with multiple delimiters
-        String logEntry = "12:30";
+        // Step 1: Declare a string variable and assign a sentence to it.
+        // This sentence contains multiple words separated by spaces.
+        String sentence = "Java makes programming easier";
 
-        // Use split() with multiple delimiters (Regex: [:;] means split at ':', ';')
-        String timestamp =logEntry.split("[:;]")[0]; // Extract first part 
-        String minutes = logEntry.split("[:;]")[1];   // Extract second part 
+        // Step 2: Use the split() method to break the string into separate words and directly access them.
+        String firstWord = sentence.split(" ")[0];  // First word
+        String secondWord = sentence.split(" ")[1]; // Second word
+        String thirdWord = sentence.split(" ")[2];  // Third word
+        String fourthWord = sentence.split(" ")[3]; // Fourth word
 
-        // Print extracted log components
-        System.out.println("Timestamp: " + timestamp);
-        System.out.println("Minutes: " + minutes);
+        // Step 3: Display each word separately.
+        System.out.println("The first word in the sentence is: " + firstWord);
+        System.out.println("The second word in the sentence is: " + secondWord);
+        System.out.println("The third word in the sentence is: " + thirdWord);
+        System.out.println("The fourth word in the sentence is: " + fourthWord);
     }
 }
 ```
