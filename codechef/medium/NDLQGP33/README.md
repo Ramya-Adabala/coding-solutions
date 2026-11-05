@@ -20,7 +20,7 @@ Flight Details: From: New York | To: London | Timings: 00:13 am
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T08:47:46.527Z  
+**Submitted:** 2026-11-05T05:15:18.644Z  
 
 ```java
 class Codechef{
