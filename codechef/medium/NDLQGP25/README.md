@@ -24,17 +24,21 @@ THIS SHIRT IS AVAILABLE IN MULTIPLE COLORS.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:14:39.088Z  
+**Submitted:** 2026-11-05T05:13:12.660Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
         
         String description = "This shirt is available in multiple colours.";
-        description=description.replace("colours","color");
-       System.out.println(description.toUpperCase());
         
+        String updatedDescription = description.replace("colour", "color");
 
+
+        String finalDescription = updatedDescription.toUpperCase();
+
+
+        System.out.println(finalDescription);
     }
 }
 ```
