@@ -34,7 +34,7 @@ How are you doing?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:12:49.822Z  
+**Submitted:** 2026-11-05T05:12:48.049Z  
 
 ```cpp
 class Codechef {
