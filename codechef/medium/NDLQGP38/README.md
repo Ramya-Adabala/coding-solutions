@@ -21,7 +21,7 @@ Discounted Price: $108.45
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T09:01:36.095Z  
+**Submitted:** 2026-11-05T05:17:08.567Z  
 
 ```java
 class Codechef {
