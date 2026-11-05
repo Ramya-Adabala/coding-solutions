@@ -30,7 +30,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-05T05:19:53.143Z  
+**Submitted:** 2026-11-05T05:19:56.881Z  
 
 ```cpp
 // Importing the Scanner class for user input
