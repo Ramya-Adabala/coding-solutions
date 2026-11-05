@@ -32,7 +32,7 @@ Processed Title: [Java Guide]
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:02:11.353Z  
+**Submitted:** 2026-11-05T05:00:31.624Z  
 
 ```cpp
 class Codechef {
