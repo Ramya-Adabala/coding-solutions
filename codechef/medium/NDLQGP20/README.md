@@ -31,7 +31,7 @@ Encrypted Message: [@cc3ss D3n!3d. Try @g6!n!]
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T02:11:02.208Z  
+**Submitted:** 2026-11-05T05:11:56.850Z  
 
 ```java
 class Codechef {
@@ -40,14 +40,11 @@ class Codechef {
         String secretMessage = "Access Denied. Try Again!";
 
         // Encrypt the message by replacing characters with codes
-        String encryptedMessage=secretMessage.replace('A','@')
-                                    .replace('a','6')
-                                    .replace('e','3')
-                                    .replace('i','!');
-
-
-
-
+        String encryptedMessage = secretMessage
+                                    .replace('A', '@') // Replace uppercase 'A' with '@'
+                                    .replace('a', '6') // Replace lowercase 'a' with '6'
+                                    .replace('e', '3') // Replace 'e' with '3'
+                                    .replace('i', '!'); // Replace 'i' with '!'
 
        
         // Print the original message
