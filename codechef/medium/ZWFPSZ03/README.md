@@ -29,7 +29,7 @@ Oh, 42 is a great choice!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T09:21:11.367Z  
+**Submitted:** 2026-11-05T05:18:38.307Z  
 
 ```java
 // Importing the Scanner class for user input
