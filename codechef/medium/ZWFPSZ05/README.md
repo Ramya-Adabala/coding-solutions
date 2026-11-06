@@ -34,7 +34,7 @@ The sum is: 30
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-05T05:20:23.486Z  
+**Submitted:** 2026-11-06T01:49:11.291Z  
 
 ```java
 // Importing the Scanner class from the java.util package
