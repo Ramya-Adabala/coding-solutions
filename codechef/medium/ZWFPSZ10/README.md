@@ -31,7 +31,7 @@ Temperature in Fahrenheit: 77.0
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T04:58:46.205Z  
+**Submitted:** 2026-11-07T03:04:10.182Z  
 
 ```java
 import java.util.Scanner;
@@ -41,18 +41,18 @@ class Codechef {
         // Creating a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
 
+        // Prompting the user to input a temperature value in Celsius
         // The value is expected to be of type double
-        double celsius=scanner.nextDouble();
+        double celsius = scanner.nextDouble(); // Storing the input in the 'celsius' variable
 
         // Converting the Celsius temperature to Fahrenheit using the formula: (C * 9/5) + 32
-   double fahrenheit=(celsius *9/5)+32;
+        double fahrenheit = (celsius * 9/5) + 32; // Storing the converted value in 'fahrenheit'
 
         // Displaying the converted Fahrenheit temperature
-   System.out.println("Temperature in Fahrenheit: "+fahrenheit);
+        System.out.println("Temperature in Fahrenheit: " + fahrenheit);
 
         // Closing the Scanner object to release system resources and prevent memory leaks
         scanner.close();
-
     }
 }
 ```
