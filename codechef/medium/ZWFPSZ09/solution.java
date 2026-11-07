@@ -1,24 +1,16 @@
-import java.util.Scanner;
+import java.util.Scanner; // Import Scanner for user input
 
 class Codechef {
     public static void main(String[] args) {
-        // Create a Scanner object to read user input
+        // Create a Scanner object to read input from the user
         Scanner scanner = new Scanner(System.in);
 
-        // Collect the temperature as a float
-  float temperature=scanner.nextFloat();
+        // Read the input as a boolean and store it
+        boolean isSubscribed = scanner.nextBoolean(); // Input: true or false
 
-        // Collect the humidity percentage as a double
-       double humidity=scanner.nextDouble();
-
-        // Collect the rain prediction as a boolean
-boolean willRain=scanner.nextBoolean();
-
-        // Display the collected weather details
-        System.out.println("Weather Information:");
-        System.out.println("Temperature: " + temperature + "°C");
-        System.out.println("Humidity: " + humidity + "%");
-        System.out.println("Rain Expected: " + willRain);
+        // Display subscription status
+        System.out.println("\nSubscription Status:");
+        System.out.println("Subscribed: " + isSubscribed);
 
         // Close the Scanner object
         scanner.close();
