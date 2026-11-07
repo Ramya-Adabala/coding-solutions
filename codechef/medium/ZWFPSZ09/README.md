@@ -4,29 +4,65 @@
 
 ## Problem
 
-_Description not available._
+### Weather Info
+
+A weather monitoring system collects  **temperature, humidity, and rain prediction**  from user input. Complete the program by filling in the missing parts to ensure it correctly retrieves and displays the weather details.
+
+ **Input:** 
+
+- A float representing the temperature.
+- A double representing the humidity percentage.
+- A boolean representing whether rain is expected.
+
+Run the code, modify values, and verify that it correctly captures different weather conditions!
+
+### Sample 1:
+Input
+Output
+
+```
+28.5  
+72.3  
+false 
+```
+
+```
+Weather Information:
+Temperature: 28.5°C
+Humidity: 72.3%
+Rain Expected: false
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T03:03:20.108Z  
+**Submitted:** 2026-11-07T03:03:31.484Z  
 
 ```java
-import java.util.Scanner; // Import Scanner for user input
+import java.util.Scanner;
 
 class Codechef {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the user
+        // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
 
-        // Read the input as a boolean and store it
-        boolean isSubscribed = scanner.nextBoolean(); // Input: true or false
+        // Collect the temperature as a float
+        float temperature = scanner.nextFloat(); // Input temperature (float)
 
-        // Display subscription status
-        System.out.println("\nSubscription Status:");
-        System.out.println("Subscribed: " + isSubscribed);
+        // Collect the humidity percentage as a double
+        double humidity = scanner.nextDouble(); // Input humidity (double)
+
+        // Collect the rain prediction as a boolean
+        boolean willRain = scanner.nextBoolean(); // Input rain prediction (boolean)
+
+        // Display the collected weather details
+        System.out.println("Weather Information:");
+        System.out.println("Temperature: " + temperature + "°C");
+        System.out.println("Humidity: " + humidity + "%");
+        System.out.println("Rain Expected: " + willRain);
 
         // Close the Scanner object
         scanner.close();
