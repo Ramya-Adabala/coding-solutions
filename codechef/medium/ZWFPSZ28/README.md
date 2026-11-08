@@ -29,7 +29,7 @@ Uppercase: JAVA PROGRAMMING
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T15:54:48.428Z  
+**Submitted:** 2026-11-08T09:31:52.624Z  
 
 ```java
 import java.util.Scanner; 
@@ -41,7 +41,7 @@ class Codechef {
 
         // Read a line of input provided by the user
         String userInput = scanner.nextLine(); // Capture user input as a string
- 
+
         // Convert the input string to lowercase and display the result
         System.out.println("Lowercase: " + userInput.toLowerCase()); 
         // The toLowerCase() method converts all characters in the string to lowercase.
