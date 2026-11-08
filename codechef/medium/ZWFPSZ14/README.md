@@ -29,7 +29,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T09:27:59.962Z  
+**Submitted:** 2026-11-08T09:27:55.103Z  
 
 ```cpp
 import java.util.Scanner; 
