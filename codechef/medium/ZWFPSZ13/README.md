@@ -31,7 +31,7 @@ Favorite Letter: J
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T02:39:05.415Z  
+**Submitted:** 2026-11-08T09:25:06.607Z  
 
 ```java
 import java.util.Scanner; 
