@@ -7,7 +7,7 @@ class Codechef {
 
         // Read a line of input provided by the user
         String userInput = scanner.nextLine(); // Capture user input as a string
- 
+
         // Convert the input string to lowercase and display the result
         System.out.println("Lowercase: " + userInput.toLowerCase()); 
         // The toLowerCase() method converts all characters in the string to lowercase.
