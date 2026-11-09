@@ -38,7 +38,7 @@ Java-Programming
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T15:55:56.495Z  
+**Submitted:** 2026-11-09T08:40:26.942Z  
 
 ```cpp
 import java.util.Scanner; 
@@ -50,7 +50,7 @@ class Codechef {
 
         // Read a line of input provided by the user
         String userInput = scanner.nextLine(); // Capture user input as a string
- 
+
         // Convert the input string to lowercase and display the result
         System.out.println("Lowercase: " + userInput.toLowerCase()); 
         // The toLowerCase() method converts all characters in the string to lowercase.
