@@ -8,14 +8,10 @@ class Codechef {
         int age = scanner.nextInt();
 
         // Checking exam eligibility
-
-             if(age>=17){
-                 System.out.println("You are eligible to take the entrance exam.");
-             }
-             else{
-                 System.out.println("You are not eligible to take the entrance exam.");
-             }
-
-
+        if (age >= 17) {
+            System.out.println("You are eligible to take the entrance exam.");
+        } else {
+            System.out.println("You are not eligible to take the entrance exam.");
+        }
     }
 }
