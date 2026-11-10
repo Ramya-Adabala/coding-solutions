@@ -4,25 +4,25 @@
 
 ## Problem
 
-### Advanced Course Eligibility Check
+### Employee Performance Evaluation
 
-Write a program that takes the student's score as input and determines whether they are eligible for an advanced course. If the score is greater than 60, the student qualifies; otherwise, they need to improve their score.
+A company evaluates employee performance based on their monthly sales. The system checks whether an employee's sales exceed the performance threshold. Complete the program by filling in the missing parts to ensure the correct functionality.
 
  **Input:** 
-A single integer representing the student's score (out of 100).
+Take employeeSales and performanceThreshold as input
 
 ### Sample 1:
 Input
 Output
 
 ```
-75
-
+120
+100
 ```
 
 ```
-You are eligible for the advanced course!
-
+Performance Status: Exceeds Expectations.  
+Evaluation completed.  
 ```
 
 ### Sample 2:
@@ -30,13 +30,13 @@ Input
 Output
 
 ```
-60
-
+100
+120
 ```
 
 ```
-You need to score higher to enroll in the advanced course.
-
+Performance Status: Below Expectations.
+Evaluation completed. 
 ```
 
 ## Solution
@@ -44,27 +44,30 @@ You need to score higher to enroll in the advanced course.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:42:40.577Z  
+**Submitted:** 2026-11-10T14:10:01.358Z  
 
 ```java
 import java.util.*;
-// This class demonstrates the use of statements and semicolons in Java.
-class Codechef {
 
-    // The main method serves as the entry point for the program.
+class Codechef {
     public static void main(String[] args) {
-        
-        // write your code here
-        Scanner sc=new Scanner(System.in);
-        int score=sc.nextInt();
-        if(score>60){
-            System.out.println("You are eligible for the advanced course!");
+       
+        Scanner sc = new Scanner(System.in);
+        int employeeSales = sc.nextInt();
+        int performanceThreshold = sc.nextInt();
+
+        // Checking if employee sales exceed the performance threshold
+        if (employeeSales > performanceThreshold) {  // Fill in the blank
+            System.out.println("Performance Status: Exceeds Expectations."); // Fill in the blank
+        } else {
+            System.out.println("Performance Status: Below Expectations."); // Fill in the blank
         }
-        else{
-            System.out.println("You need to score higher to enroll in the advanced course.");
-        }
+
+        // Indicating that the evaluation process is complete
+        System.out.println("Evaluation completed.");
     }
 }
+
 ```
 
 ---
