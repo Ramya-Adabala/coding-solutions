@@ -29,7 +29,7 @@ Uppercase: JAVA PROGRAMMING
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T09:31:52.624Z  
+**Submitted:** 2026-11-10T13:50:07.628Z  
 
 ```java
 import java.util.Scanner; 
