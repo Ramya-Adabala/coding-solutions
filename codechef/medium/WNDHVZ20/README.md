@@ -44,7 +44,7 @@ Some apples will be left over after sharing!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:32:43.747Z  
+**Submitted:** 2026-11-10T14:09:21.058Z  
 
 ```java
 import java.util.*;
@@ -58,16 +58,11 @@ class Codechef {
         int apples = scanner.nextInt();
 
         // Check if apples can be evenly divided by 4
-
-      if(apples%4==0){
-          System.out.println("The apples can be evenly shared among friends!");
-      }
-      else{
-          System.out.println("Some apples will be left over after sharing!");
-      }
-
-
-
+        if (apples % 4 == 0) {
+            System.out.println("The apples can be evenly shared among friends!");
+        } else {
+            System.out.println("Some apples will be left over after sharing!");
+        }
     }
 }
 
