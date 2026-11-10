@@ -48,7 +48,7 @@ You are not eligible to take the entrance exam.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:10:36.107Z  
+**Submitted:** 2026-11-10T13:57:09.255Z  
 
 ```java
 import java.util.*;
@@ -61,15 +61,11 @@ class Codechef {
         int age = scanner.nextInt();
 
         // Checking exam eligibility
-
-             if(age>=17){
-                 System.out.println("You are eligible to take the entrance exam.");
-             }
-             else{
-                 System.out.println("You are not eligible to take the entrance exam.");
-             }
-
-
+        if (age >= 17) {
+            System.out.println("You are eligible to take the entrance exam.");
+        } else {
+            System.out.println("You are not eligible to take the entrance exam.");
+        }
     }
 }
 
