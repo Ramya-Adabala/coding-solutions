@@ -30,7 +30,7 @@ Congratulations! You are eligible for a discount.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:07:36.648Z  
+**Submitted:** 2026-11-10T13:55:43.706Z  
 
 ```java
 import java.util.*;
@@ -40,13 +40,12 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
 
         // Taking user input for purchase amount
-     int purchaseAmount=scanner.nextInt();
+        int purchaseAmount = scanner.nextInt();
 
         // Checking discount eligibility
-if(purchaseAmount>=1000){
-    System.out.println("Congratulations! You are eligible for a discount.");
-}
-
+        if (purchaseAmount >= 1000) {
+            System.out.println("Congratulations! You are eligible for a discount.");
+        }
 
         scanner.close();
     }
