@@ -9,15 +9,10 @@ class Codechef {
         int apples = scanner.nextInt();
 
         // Check if apples can be evenly divided by 4
-
-      if(apples%4==0){
-          System.out.println("The apples can be evenly shared among friends!");
-      }
-      else{
-          System.out.println("Some apples will be left over after sharing!");
-      }
-
-
-
+        if (apples % 4 == 0) {
+            System.out.println("The apples can be evenly shared among friends!");
+        } else {
+            System.out.println("Some apples will be left over after sharing!");
+        }
     }
 }
