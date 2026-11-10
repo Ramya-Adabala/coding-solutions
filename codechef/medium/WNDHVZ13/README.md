@@ -21,7 +21,7 @@ ID verification completed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:10:55.593Z  
+**Submitted:** 2026-11-10T13:57:46.393Z  
 
 ```java
 import java.util.*;
