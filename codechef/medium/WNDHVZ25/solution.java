@@ -1,18 +1,20 @@
 import java.util.*;
-// This class demonstrates the use of statements and semicolons in Java.
-class Codechef {
 
-    // The main method serves as the entry point for the program.
+class Codechef {
     public static void main(String[] args) {
-        
-        // write your code here
-        Scanner sc=new Scanner(System.in);
-        int score=sc.nextInt();
-        if(score>60){
-            System.out.println("You are eligible for the advanced course!");
+       
+        Scanner sc = new Scanner(System.in);
+        int employeeSales = sc.nextInt();
+        int performanceThreshold = sc.nextInt();
+
+        // Checking if employee sales exceed the performance threshold
+        if (employeeSales > performanceThreshold) {  // Fill in the blank
+            System.out.println("Performance Status: Exceeds Expectations."); // Fill in the blank
+        } else {
+            System.out.println("Performance Status: Below Expectations."); // Fill in the blank
         }
-        else{
-            System.out.println("You need to score higher to enroll in the advanced course.");
-        }
+
+        // Indicating that the evaluation process is complete
+        System.out.println("Evaluation completed.");
     }
 }
