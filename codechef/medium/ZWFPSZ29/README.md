@@ -38,7 +38,7 @@ Java-Programming
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T08:40:26.942Z  
+**Submitted:** 2026-11-10T13:50:18.707Z  
 
 ```cpp
 import java.util.Scanner; 
