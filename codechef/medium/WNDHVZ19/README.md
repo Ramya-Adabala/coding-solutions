@@ -32,7 +32,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:31:05.820Z  
+**Submitted:** 2026-11-10T14:09:08.258Z  
 
 ```cpp
 import java.util.*;
