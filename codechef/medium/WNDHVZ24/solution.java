@@ -2,14 +2,13 @@ import java.util.*;
 
 class Codechef {
     public static void main(String[] args) {
-        
-        // Take employeeSales and performanceThreshold as input
-        Scanner sc=new Scanner(System.in);
-        int employeeSales=sc.nextInt();
-        int performanceThreshold=sc.nextInt();
-        
+       
+        Scanner sc = new Scanner(System.in);
+        int employeeSales = sc.nextInt();
+        int performanceThreshold = sc.nextInt();
+
         // Checking if employee sales exceed the performance threshold
-        if (employeeSales>performanceThreshold ) {  // Fill in the blank
+        if (employeeSales > performanceThreshold) {  // Fill in the blank
             System.out.println("Performance Status: Exceeds Expectations."); // Fill in the blank
         } else {
             System.out.println("Performance Status: Below Expectations."); // Fill in the blank
