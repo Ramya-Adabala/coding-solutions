@@ -30,16 +30,12 @@ Each element is replaced by the value at index arr[i] in the original array.
 So the new values become 3, 4, 2, 0, 1 respectively, and the transformed array becomes [3, 4, 2, 0, 1].
 ```
 
- **Constraints:** 
-1 ≤ n ≤ 4*104
-0 ≤ arr[i] < n
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-15T13:21:36.774Z  
+**Submitted:** 2026-11-10T14:11:23.251Z  
 
 ```java
 class Solution {
