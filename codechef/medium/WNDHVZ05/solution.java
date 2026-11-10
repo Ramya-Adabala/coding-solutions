@@ -5,13 +5,12 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
 
         // Taking user input for purchase amount
-     int purchaseAmount=scanner.nextInt();
+        int purchaseAmount = scanner.nextInt();
 
         // Checking discount eligibility
-if(purchaseAmount>=1000){
-    System.out.println("Congratulations! You are eligible for a discount.");
-}
-
+        if (purchaseAmount >= 1000) {
+            System.out.println("Congratulations! You are eligible for a discount.");
+        }
 
         scanner.close();
     }
