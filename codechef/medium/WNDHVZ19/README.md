@@ -4,37 +4,26 @@
 
 ## Problem
 
-### Checking Server Status
+### Worked Example - Checking Payment Status
 
-A company has an automated system that checks the server status. If the server is  **not "Online"**, a warning message should be displayed. Otherwise, a message confirming that the server is running normally should be shown.
+In this example, we demonstrate how to use an if-else statement with the != (Not Equal) operator to check if a payment has been completed. This method helps in understanding conditional execution in Java.
 
- **Given Code:** 
+ **When executed, the code will show:** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        // Variable representing server status
-        String serverStatus = "Maintenance";
-
-        // Check if the server is not online
-        if (serverStatus != "Online") {
-            System.out.println("Warning! The server is not online.");
-        } else {
-            System.out.println("Server is running normally.");
-        }
-    }
-}
+Your payment is still pending. Please complete it.  
+Payment status check completed.  
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T14:09:08.258Z  
+**Submitted:** 2026-11-10T14:09:03.387Z  
 
-```cpp
+```java
 import java.util.*;
 
 class Codechef {
