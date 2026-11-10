@@ -44,21 +44,20 @@ Evaluation completed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:35:55.686Z  
+**Submitted:** 2026-11-10T14:09:48.562Z  
 
 ```java
 import java.util.*;
 
 class Codechef {
     public static void main(String[] args) {
-        
-        // Take employeeSales and performanceThreshold as input
-        Scanner sc=new Scanner(System.in);
-        int employeeSales=sc.nextInt();
-        int performanceThreshold=sc.nextInt();
-        
+       
+        Scanner sc = new Scanner(System.in);
+        int employeeSales = sc.nextInt();
+        int performanceThreshold = sc.nextInt();
+
         // Checking if employee sales exceed the performance threshold
-        if (employeeSales>performanceThreshold ) {  // Fill in the blank
+        if (employeeSales > performanceThreshold) {  // Fill in the blank
             System.out.println("Performance Status: Exceeds Expectations."); // Fill in the blank
         } else {
             System.out.println("Performance Status: Below Expectations."); // Fill in the blank
