@@ -44,7 +44,7 @@ Meals Included: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T15:59:57.748Z  
+**Submitted:** 2026-11-10T13:52:41.087Z  
 
 ```java
 import java.util.Scanner; 
@@ -55,20 +55,20 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
 
         // Collect the traveler's name
-        String name=scanner.nextLine();
+        String name = scanner.nextLine(); // Traveler's name (String)
 
         // Collect the number of travelers
-     int numTravelers=scanner.nextInt();
+        int numTravelers = scanner.nextInt(); // Number of travelers (int)
 
         // Collect the ticket price per traveler
-   double ticketPrice=scanner.nextDouble();
+        double ticketPrice = scanner.nextDouble(); // Ticket price (double)
 
         // Collect the total luggage weight in kilograms
-float luggageWeight=scanner.nextFloat();
+        float luggageWeight = scanner.nextFloat(); // Luggage weight (float)
 
         // Collect meal preference as a boolean (true/false)
+        boolean includeMeals = scanner.nextBoolean(); // Meal preference (boolean)
 
- boolean includeMeals=scanner.nextBoolean();
         // Display the travel booking details
         System.out.println("Booking Information:");
         System.out.println("Name: " + name); // Display traveler's name
