@@ -4,32 +4,16 @@
 
 ## Problem
 
-### Fill in the Blanks - Check if a Number is Positive
-
-Complete the following Java program by filling in the missing part so that it correctly checks if a number is  **positive**  and prints `"The number is positive."` when the condition is met.
-
-```
-import java.util.*;
-class Codechef {
-    public static void main(String[] args) {
-        int number = 15;
-
-        if (_____) {  // Fill in the blank
-            System.out.println("The number is positive.");
-        }
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:04:52.624Z  
+**Submitted:** 2026-11-10T13:55:02.044Z  
 
-```cpp
+```java
 import java.util.*;
 
 class Codechef {
