@@ -31,7 +31,7 @@ Currently Enrolled: true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T15:56:28.208Z  
+**Submitted:** 2026-11-10T13:52:04.036Z  
 
 ```java
 import java.util.Scanner; // Import the Scanner class to handle user input
