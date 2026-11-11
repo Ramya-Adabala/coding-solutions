@@ -21,7 +21,7 @@ Result check completed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:55:52.546Z  
+**Submitted:** 2026-11-11T13:09:53.716Z  
 
 ```java
 import java.util.*;
