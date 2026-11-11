@@ -29,27 +29,27 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T05:43:27.856Z  
+**Submitted:** 2026-11-11T13:08:57.846Z  
 
 ```cpp
 import java.util.*;
-// This class demonstrates the use of statements and semicolons in Java.
-class Codechef {
 
-    // The main method serves as the entry point for the program.
+class Codechef {
     public static void main(String[] args) {
-        
-        // write your code here
-        Scanner sc=new Scanner(System.in);
-        int score=sc.nextInt();
-        if(score>60){
+        Scanner scanner = new Scanner(System.in);
+
+        // Taking user input for the student's score
+        int score = scanner.nextInt();
+
+        // Checking eligibility for the advanced course
+        if (score > 60) {
             System.out.println("You are eligible for the advanced course!");
-        }
-        else{
+        } else {
             System.out.println("You need to score higher to enroll in the advanced course.");
         }
     }
 }
+
 ```
 
 ---
