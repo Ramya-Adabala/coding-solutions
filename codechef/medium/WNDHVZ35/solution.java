@@ -2,22 +2,20 @@ import java.util.*;
 
 class Codechef {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // Taking input of studentScore and passingScore
         
-        // Taking age input from the user
-        int age = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int studentScore=sc.nextInt();
+        int passingScore=sc.nextInt();
         
-        int minSeniorAge = 60; // Minimum age required for discount
-        
-        // Checking eligibility for the discount
-        if (age >= minSeniorAge) {
-            System.out.println("You are eligible for a senior citizen discount!");
-            System.out.println("Enjoy your discounted movie ticket.");
+        // Checking if the student meets the scholarship criteria
+        if (studentScore >= passingScore) {  // Fill in the blank
+            System.out.println("Scholarship Granted!"); // Fill in the blank
         } else {
-            // Calculating how many more years are needed
-            int yearsLeft = minSeniorAge - age;
-            System.out.println("You are not eligible for a senior citizen discount.");
-            System.out.println("You need to wait " + yearsLeft + " more years to qualify.");
+            System.out.println("Scholarship Denied!"); // Fill in the blank
         }
+
+        // Indicating that the evaluation process is complete
+        System.out.println("Evaluation completed.");
     }
 }
