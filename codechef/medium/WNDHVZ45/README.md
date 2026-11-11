@@ -50,7 +50,7 @@ Security check completed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T04:51:11.028Z  
+**Submitted:** 2026-11-11T13:23:41.390Z  
 
 ```java
 import java.util.*;
@@ -67,20 +67,13 @@ class Codechef {
         int clearanceLevel = scanner.nextInt();
 
         // Checking access conditions
-     if(storedPassword.equals(enteredPassword) && clearanceLevel>=requiredClearance)
-     {
-         System.out.println("Access granted.");
-     }
-     else{
-         System.out.println("Access denied.");
-     }
-System.out.println("Security check completed.");
+        if (enteredPassword.equals(storedPassword) && clearanceLevel >= requiredClearance) {
+            System.out.println("Access granted.");
+        } else {
+            System.out.println("Access denied.");
+        }
 
-
-
-
-
-
+        System.out.println("Security check completed.");
     }
 }
 
