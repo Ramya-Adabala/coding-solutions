@@ -12,19 +12,12 @@ class Codechef {
         int clearanceLevel = scanner.nextInt();
 
         // Checking access conditions
-     if(storedPassword.equals(enteredPassword) && clearanceLevel>=requiredClearance)
-     {
-         System.out.println("Access granted.");
-     }
-     else{
-         System.out.println("Access denied.");
-     }
-System.out.println("Security check completed.");
+        if (enteredPassword.equals(storedPassword) && clearanceLevel >= requiredClearance) {
+            System.out.println("Access granted.");
+        } else {
+            System.out.println("Access denied.");
+        }
 
-
-
-
-
-
+        System.out.println("Security check completed.");
     }
 }
