@@ -38,7 +38,7 @@ if (amount >= 5000) {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T15:42:03.602Z  
+**Submitted:** 2026-11-12T15:42:06.017Z  
 
 ```cpp
 class Codechef {
