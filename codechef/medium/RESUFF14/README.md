@@ -59,7 +59,7 @@ Reservation check completed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T02:19:10.807Z  
+**Submitted:** 2026-11-12T15:43:22.859Z  
 
 ```java
 import java.util.Scanner;
