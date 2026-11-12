@@ -8,6 +8,8 @@ Given a string containing just the characters `'('` and `')'`, return  *the leng
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -44,9 +46,9 @@ Output: 0
 ## Solution
 
 **Language:** Java  
-**Runtime:** 5 ms (beats 72.88%)  
-**Memory:** 46.8 MB (beats 12.77%)  
-**Submitted:** 2026-10-11T14:26:25.113Z  
+**Runtime:** 6 ms (beats 17.72%)  
+**Memory:** 47 MB (beats 6.79%)  
+**Submitted:** 2026-11-12T15:44:27.367Z  
 
 ```java
 import java.util.*;
