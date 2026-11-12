@@ -31,6 +31,8 @@ If all assertions pass, then your solution will be  **accepted**.
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -62,9 +64,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 78.44%)  
-**Memory:** 45.9 MB (beats 99.75%)  
-**Submitted:** 2026-10-16T12:43:22.578Z  
+**Runtime:** 1 ms (beats 85.81%)  
+**Memory:** 45.9 MB (beats 96.18%)  
+**Submitted:** 2026-11-12T03:32:11.804Z  
 
 ```java
 import java.util.*;
