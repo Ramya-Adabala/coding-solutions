@@ -20,7 +20,7 @@ Enjoy the pleasant weather
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T05:05:03.104Z  
+**Submitted:** 2026-11-12T15:41:48.609Z  
 
 ```java
 class Codechef {
