@@ -20,16 +20,20 @@ Password strength: Strong
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T02:37:28.037Z  
+**Submitted:** 2026-11-13T11:50:49.387Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        String password = "mypass123";
+        // Initialize the variable 'password' with a predefined value
+        String password = "mypass123"; 
+
+        // Use a ternary operator to evaluate the password strength
+        // If the length of the password is less than 8 characters, it is "Weak"
+        // Otherwise, the password is "Strong"
+        String strength = password.length() < 8 ? "Weak" : "Strong";
         
-        // Use a ternary operator to check the password strength
-        String strength = password.length()<8 ?"Weak":"Strong";
-        
+        // Output the password strength to the console
         System.out.println("Password strength: " + strength);
     }
 }
