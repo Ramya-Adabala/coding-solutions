@@ -20,7 +20,7 @@ Eligible for admission.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T02:40:25.711Z  
+**Submitted:** 2026-11-13T11:51:29.615Z  
 
 ```java
 class Codechef {
