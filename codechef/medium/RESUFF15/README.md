@@ -65,7 +65,7 @@ Shipping not available for packages above 5 kg.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T15:43:49.222Z  
+**Submitted:** 2026-11-13T09:11:34.732Z  
 
 ```java
 import java.util.Scanner; // Import the Scanner class to take user input
