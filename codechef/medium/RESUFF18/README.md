@@ -20,7 +20,7 @@ Eligible to vote
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T09:12:16.930Z  
+**Submitted:** 2026-11-13T11:50:34.998Z  
 
 ```java
 class Codechef {
