@@ -1,23 +1,25 @@
-# Linked List Traversal
+# Print Linked List
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Basic-red)
 
 ## Problem
 
-Given an LinkedList  **list**  that contains integer elements. The task is to iterate through the given list and print its elements.
+Given a linked list that contains integer elements. Iterate through the given list and print its elements separated by a space.
 
  **Examples:** 
 
 ```
-Input: list = [1, 2, 3, 4]
+Input:
+
 Output: 1 2 3 4
-Explanation: Simply iterate through the ll and print the elements.
+Explanation: Iterating through the linked list prints 1, 2, 3, and 4.
 ```
 
 ```
-Input: list = [3, 2, 1]
-Output: 3 2 1 
-Explanation: Simply iterate through the ll and print the elements.
+Input:
+
+Output: 2 7 10 9 8 
+Explanation: Iterating through the linked list prints 2, 7, 10, 9 and 8.
 ```
 
 ## Solution
@@ -25,7 +27,7 @@ Explanation: Simply iterate through the ll and print the elements.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T05:20:32.835Z  
+**Submitted:** 2026-11-13T11:48:12.203Z  
 
 ```java
 /*
