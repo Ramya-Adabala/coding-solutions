@@ -4,89 +4,14 @@
 
 ## Problem
 
-### Gym Eligibility
-
-This program takes a user's details and determines their eligibility for gym entry based on their  **age, membership status**, and whether they are  **accompanied by a member**. The program uses an  **if-else statement**  to check these conditions.
-
- **Input:** 
-
-- age (an integer)
-- hasMembershipCard (a boolean)
-- isAccompaniedByMember (a boolean)
-- isBanned (a boolean).
-
- **Condition:** 
-
-- If the user is banned, print: "Not eligible for gym entry due to ban."
-- If the user is 18 or older and has a membership card, print: "Eligible for gym entry with a membership card."
-- If the user is 18 or older and is accompanied by a member, print: "Eligible for gym entry when accompanied by a member."
-- If none of the conditions are met, print: "Not eligible for gym entry."
-### Sample 1:
-Input
-Output
-
-```
-20
-false
-true 
-true
-```
-
-```
-Not eligible for gym entry due to ban.
-```
-
-### Sample 2:
-Input
-Output
-
-```
-20
-true
-true 
-false
-```
-
-```
-Eligible for gym entry with a membership card.
-```
-
-### Sample 3:
-Input
-Output
-
-```
-20
-false
-true 
-false
-```
-
-```
-Eligible for gym entry when accompanied by a member.
-```
-
-### Sample 4:
-Input
-Output
-
-```
-16
-false
-true 
-false
-```
-
-```
-Not eligible for gym entry.
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T02:47:58.137Z  
+**Submitted:** 2026-11-13T11:52:03.937Z  
 
 ```java
 import java.util.Scanner;
