@@ -86,7 +86,7 @@ Not eligible for gym entry.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T02:47:26.883Z  
+**Submitted:** 2026-11-13T11:52:00.315Z  
 
 ```java
 import java.util.Scanner;
