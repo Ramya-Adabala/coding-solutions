@@ -65,7 +65,7 @@ Stay safe.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T04:49:54.978Z  
+**Submitted:** 2026-11-14T01:18:17.394Z  
 
 ```java
 import java.util.Scanner; // Import Scanner class to take input from the user
