@@ -10,6 +10,8 @@ Given two non-negative integers `num1` and `num2` represented as strings, return
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -37,9 +39,9 @@ Output: "56088"
 ## Solution
 
 **Language:** Java  
-**Runtime:** 3 ms (beats 79.09%)  
-**Memory:** 43.9 MB (beats 14.81%)  
-**Submitted:** 2026-08-18T13:07:34.145Z  
+**Runtime:** 3 ms (beats 85.65%)  
+**Memory:** 43.2 MB (beats 75.98%)  
+**Submitted:** 2026-11-14T01:17:23.344Z  
 
 ```java
 class Solution
