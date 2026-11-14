@@ -1,0 +1,61 @@
+# RESUFF29 - Rating 1250
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+### Fruit Selector
+
+You are tasked with implementing a simple program that uses a  **switch statement**  to print the name of a fruit based on a given `fruitCode`.
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int fruitCode = 2;
+
+        switch (fruitCode) {
+            case 1:
+                System.out.println("Apple");
+            case 2:
+                System.out.println("Banana");
+            case 3:
+                System.out.println("Cherry");
+        }
+    }
+}
+
+```
+
+## Solution
+
+**Language:** C++  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-11-14T01:17:15.358Z  
+
+```cpp
+class Codechef {
+    public static void main(String[] args) {
+        // Initialize the variable 'time' to represent the time of day
+        // (1 for Breakfast, 2 for Lunch, 3 for Dinner)
+        int time = 2; 
+
+        // Use a switch statement to determine and print the meal recommendations
+        switch (time) {
+            case 1: // If 'time' equals 1
+                System.out.println("Breakfast is served from 7 AM to 10 AM.");
+
+            case 2: // If 'time' equals 2
+                System.out.println("Lunch is available from 12 PM to 3 PM.");
+
+            case 3: // If 'time' equals 3
+                System.out.println("Dinner is served from 6 PM to 9 PM.");
+        }
+    }
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/RESUFF29)
