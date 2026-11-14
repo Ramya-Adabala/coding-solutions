@@ -21,7 +21,7 @@ Dinner is served from 6 PM to 9 PM.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T04:48:18.164Z  
+**Submitted:** 2026-11-14T01:16:59.144Z  
 
 ```java
 class Codechef {
