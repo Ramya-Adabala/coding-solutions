@@ -50,7 +50,7 @@ End of the trail reached at 100 meters.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:52:01.882Z  
+**Submitted:** 2026-11-15T06:07:10.215Z  
 
 ```java
 import java.util.Scanner;
