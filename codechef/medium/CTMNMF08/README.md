@@ -36,7 +36,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:42:37.579Z  
+**Submitted:** 2026-11-15T05:53:48.074Z  
 
 ```java
 import java.util.Scanner;  // Import Scanner for user input  
