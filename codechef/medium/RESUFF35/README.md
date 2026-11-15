@@ -45,7 +45,7 @@ You selected: Burger
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-14T01:19:12.325Z  
+**Submitted:** 2026-11-15T05:44:12.592Z  
 
 ```java
 import java.util.Scanner; // Import Scanner class for user input
