@@ -44,7 +44,7 @@ Sum of digits: 6
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:44:33.691Z  
+**Submitted:** 2026-11-15T05:54:29.844Z  
 
 ```java
 import java.util.Scanner;  
@@ -58,24 +58,19 @@ class Codechef {
         // Read an integer input from the user
         int number = scanner.nextInt();  
         
-        // Variable to store the sum of digits of the number 
-        int sum=0;
-
+        // Variable to store the sum of digits of the number  
+        int sum = 0; 
 
         // Start a while loop, the loop will run until the number becomes 0
-        while(number>0){
-
+        while (number > 0) {  
             
             // Get the last digit of the number using the modulus operator (%)
             // Adds the last digit to the sum
-            int rem=number%10;
-            sum+=rem;
-
+            sum += number % 10;   
             
             // Remove the last digit of the number by dividing it by 10
             // This reduces the number by removing the last digit
-            number=number/10;
-
+            number /= 10; 
         }  
 
         // Print the result, which is the sum of the digits
