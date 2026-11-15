@@ -1,16 +1,15 @@
 class Codechef {
     public static void main(String[] args) {
+        
+        // Declare a boolean condition
+        boolean isRunning = true;
 
-        String correctPassword = "JavaRocks";
-        String enteredPassword = "JavaRocks";
-
-        // Write the condition below in the while loop
-        while (!enteredPassword.equals(correctPassword) ) {
-            System.out.println("Invalid Password");
-
+        // While loop to print a message while the condition is true
+        while (isRunning) {
+            System.out.println("The process is running...");
+            
+            // Changing the condition to false (breaking the loop)
+            isRunning = false; 
         }
-
-        System.out.println("Access Granted!");
-
     }
 }
