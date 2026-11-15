@@ -20,7 +20,7 @@ The sum of every third number up to 20 is: 70
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:47:16.539Z  
+**Submitted:** 2026-11-15T05:55:40.813Z  
 
 ```java
 class Codechef {
