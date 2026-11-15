@@ -4,34 +4,41 @@
 
 ## Problem
 
-### Counting Down for a Rocket Launch
+### Print Multiplication Table
 
-A space agency is conducting a countdown for a rocket launch. The loop runs using a forward loop counter with a while loop and prints each number.
+In this example, we will read a user input, generate a multiplication table, and display the results in a concise manner. This approach demonstrates using a `while` loop for repeated actions based on user input.
+
+When executed, the code will display the multiplication table for the user input.
+
+### Sample 1:
+Input
+Output
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        int count = 1; 
+5
+```
 
-        while (count <= 10) {  
-            System.out.println("T-minus " + count);  
-            count++; 
-        }
-
-        System.out.println("Lift-off!");  
-    }
-}
-
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:43:02.075Z  
+**Submitted:** 2026-11-15T05:53:52.196Z  
 
-```cpp
+```java
 import java.util.Scanner;  // Import Scanner for user input  
 
 class Codechef {
