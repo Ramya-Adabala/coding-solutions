@@ -4,7 +4,7 @@
 
 ## Problem
 
-Given a binary string  **s**. You have to count the number of substrings that start and end with 1.
+Given a binary string  **s**, count the number of substrings that start and end with 1.
 
  **Examples:** 
 
@@ -28,7 +28,7 @@ Explanation: There are 3 substrings from the given string. They are "11", "101",
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T05:27:52.635Z  
+**Submitted:** 2026-11-15T06:38:29.857Z  
 
 ```java
 class Solution {
