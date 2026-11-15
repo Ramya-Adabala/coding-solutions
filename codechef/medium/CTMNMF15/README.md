@@ -50,7 +50,7 @@ Warning! Water level is low (10 liters). Please refill the tank!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:46:57.472Z  
+**Submitted:** 2026-11-15T05:55:22.474Z  
 
 ```java
 import java.util.*;
