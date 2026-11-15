@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:46:58.616Z  
+**Submitted:** 2026-11-15T05:55:24.129Z  
 
 ```java
 import java.util.*;
