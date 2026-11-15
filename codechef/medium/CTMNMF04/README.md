@@ -4,17 +4,14 @@
 
 ## Problem
 
-### Secure Login System
+### Worked Example - Repeating a Message
 
-You are creating a basic login check. The system should keep checking the password until it matches the correct one.
+In this example, we demonstrate how to use a while loop in Java to continuously display a message until a condition is met..
 
- **Your Task:** 
-Write the condition for while loop.
-
- **Expected Output:** 
+ **When executed, the code will show:** 
 
 ```
-Access Granted!
+The process is running...
 
 ```
 
@@ -23,25 +20,25 @@ Access Granted!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-15T05:52:20.824Z  
+**Submitted:** 2026-11-15T05:52:09.134Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
+        
+        // Declare a boolean condition
+        boolean isRunning = true;
 
-        String correctPassword = "JavaRocks";
-        String enteredPassword = "JavaRocks";
-
-        // Write the condition below in the while loop
-        while (!enteredPassword.equals(correctPassword) ) {
-            System.out.println("Invalid Password");
-
+        // While loop to print a message while the condition is true
+        while (isRunning) {
+            System.out.println("The process is running...");
+            
+            // Changing the condition to false (breaking the loop)
+            isRunning = false; 
         }
-
-        System.out.println("Access Granted!");
-
     }
 }
+
 ```
 
 ---
