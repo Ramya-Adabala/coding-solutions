@@ -20,7 +20,7 @@ First multiple of 3 found: 12
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:53:02.361Z  
+**Submitted:** 2026-11-15T06:08:52.508Z  
 
 ```java
 class Codechef {
