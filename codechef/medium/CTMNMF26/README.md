@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T02:52:04.603Z  
+**Submitted:** 2026-11-15T06:07:15.135Z  
 
 ```java
 import java.util.Scanner;
