@@ -47,7 +47,7 @@ Error: Invalid number format
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T06:28:40.296Z  
+**Submitted:** 2026-11-16T11:06:28.001Z  
 
 ```java
 import java.util.Scanner;
