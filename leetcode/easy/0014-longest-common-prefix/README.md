@@ -10,6 +10,8 @@ If there is no common prefix, return an empty string `""`.
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -39,8 +41,8 @@ Explanation: There is no common prefix among the input strings.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.9 MB (beats 73.12%)  
-**Submitted:** 2026-11-05T05:38:31.657Z  
+**Memory:** 42.8 MB (beats 76.69%)  
+**Submitted:** 2026-11-16T11:10:00.000Z  
 
 ```java
 class Solution {
