@@ -10,6 +10,8 @@ Increment the large integer by one and return  *the resulting array of digits*.
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -55,8 +57,8 @@ Thus, the result should be [1,0].
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43 MB (beats 97.18%)  
-**Submitted:** 2026-10-15T13:20:45.244Z  
+**Memory:** 42.6 MB (beats 97.24%)  
+**Submitted:** 2026-11-17T14:00:10.153Z  
 
 ```java
 class Solution {
