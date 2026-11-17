@@ -31,7 +31,7 @@ Valid number entered: 50
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T04:17:12.830Z  
+**Submitted:** 2026-11-17T13:54:36.032Z  
 
 ```java
 import java.util.Scanner;
