@@ -16,7 +16,7 @@ To get AC (Accepted) in this problem, use break inside the while loop — it imm
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-15T06:09:15.160Z  
+**Submitted:** 2026-11-17T13:47:35.948Z  
 
 ```java
 class Codechef {
