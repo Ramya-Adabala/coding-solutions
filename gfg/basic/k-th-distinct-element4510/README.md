@@ -24,17 +24,12 @@ Explanation: The elements that appear exactly once are 1, 3, and 4. The 3rd dist
 
 ```
 
- **Constraints:** 
-1 ≤ n ≤ 105, where n is the length of the array
-1 ≤ arr[i] ≤ 106
-1 ≤ k ≤ n
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T13:28:23.607Z  
+**Submitted:** 2026-11-17T14:00:38.088Z  
 
 ```java
 // User function Template for Java
