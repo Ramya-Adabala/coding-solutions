@@ -55,7 +55,7 @@ $1^2 + 2^2 + 3^2 + 4^2$ = 30
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T04:16:48.261Z  
+**Submitted:** 2026-11-17T13:53:03.731Z  
 
 ```java
 import java.util.Scanner;
@@ -70,20 +70,14 @@ class Codechef {
         int num = 1; // Start number from 1
 
         // Iterate from 1 to the given limit
-        while(num<=limit){
-            if(num%10==5){
-                num++;
-                continue;
-                
+        while (num <= limit) {
+            if (num % 10 == 5) { // Skip numbers ending with 5
+                num++; // Move to the next number
+                continue; // Skip further processing for this number
             }
-            sum+=(num*num);
-            num++;
+            sum += (num * num); // Add square of the number to sum
+            num++; // Increment to next number
         }
-
-
-
-
-
 
         // Print the final sum
         System.out.println("Sum of squares (excluding numbers ending with 5): " + sum);
