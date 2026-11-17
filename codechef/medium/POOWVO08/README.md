@@ -20,7 +20,7 @@ Sum of even numbers from 2 to 30 is: 240
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T04:27:27.418Z  
+**Submitted:** 2026-11-17T13:55:35.430Z  
 
 ```java
 class Codechef {
