@@ -4,37 +4,16 @@
 
 ## Problem
 
-### Inverted Right-Angled Triangle Pattern
-
-What will be the output of the following Java code snippet.
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int row = 4;
-
-        while (row >= 1) {
-            int col = 1;
-            while (col <= row) {
-                System.out.print("* ");
-                col++;
-            }
-            System.out.println();
-            row--;
-        }
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T14:22:47.899Z  
+**Submitted:** 2026-11-18T14:22:12.021Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int row = 1; // Initialize row counter
