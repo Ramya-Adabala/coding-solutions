@@ -63,7 +63,7 @@ Explanation: We don't need to make any changes as the string "0000" is beautiful
 **Language:** Java  
 **Runtime:** 3 ms (beats 97.56%)  
 **Memory:** 46 MB (beats 86.59%)  
-**Submitted:** 2026-11-18T14:25:26.469Z  
+**Submitted:** 2026-11-18T14:26:09.700Z  
 
 ```java
 class Solution {
