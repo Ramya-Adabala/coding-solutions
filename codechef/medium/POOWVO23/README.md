@@ -24,7 +24,7 @@ In this example, we demonstrate how to we use nested while loops, to print a rig
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T14:02:07.481Z  
+**Submitted:** 2026-11-18T14:22:08.285Z  
 
 ```java
 class Codechef {
