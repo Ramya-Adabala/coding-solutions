@@ -4,50 +4,38 @@
 
 ## Problem
 
-### Counting Vowels in a String
-
-Vowels play an essential role in language processing. Your task is to complete a Java program that counts the number of vowels (in lowercase: a, e, i, o, u) in a given string using a while loop.
-
- **Steps to Follow:** 
-
-- Use a while loop to iterate through each character in the string.
-- Check if the current character is a vowel (a, e, i, o, u).
-- Increment the vowel counter for each match.
-- Print the total number of vowels found.
-
- **Expected Output:** 
-
-```
-Total number of vowels: 5
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-19T15:28:23.401Z  
+**Submitted:** 2026-11-19T15:27:54.121Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        String text = "Programming is fun"; // Input string
-        int count = 0; // Counter for vowels
+        // Step 1: Define the input string
+        String text = "It is a beautiful day"; // Input string
+
+        // Step 2: Initialize variables
+        int count = 0; // Counter for letters
         int i = 0; // Loop index
-        char ch;
-        
-        while (i < text.length()) { // Iterate through each character
-            ch = text.charAt(i);
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') { 
-                count++; // Increment counter if character is a vowel
+
+        // Step 3: Iterate through each character in the string
+        while (i < text.length()) { // Loop continues until the last character
+            if (Character.isLetter(text.charAt(i))) { // Check if the character is a letter
+                count++; // Increment counter if it's a letter
             }
             i++; // Move to the next character
         }
 
-        System.out.println("Total number of vowels: " + count);
+        // Step 4: Print the total number of letters in the string
+        System.out.println("Total number of letters: " + count);
     }
 }
+
 ```
 
 ---
