@@ -4,32 +4,16 @@
 
 ## Problem
 
-### MCQ - Finding the Output
-
-What will be the output of the following Java program?
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int start = 2;
-        int end = 5;
-
-        for (int i = start; i <= end; i++) {
-            System.out.println(i);
-        }
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-19T15:34:14.029Z  
+**Submitted:** 2026-11-19T15:34:06.107Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int start = 5; // Define the starting number
