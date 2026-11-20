@@ -1,15 +1,17 @@
-# Update the blanks in the code below
+# Update the '_' below to solve the problem
 
 t = int(input())
 for i in range(t):
-    #Accept 1 integer as input.
-    N = int(input())            
-    #1st condition in the problem
-    if N<=100:              
-        print('Good')
-    #2nd condition in the problem
-    elif N>100 and N<=200: 
-        print('Better')
-    #3rd condition in the problem
-    else:                   
-        print('Best')
+    n = int(input())
+    
+    # Condition 1
+    if n%3 ==0:
+        print('Divisible by 3')
+    else:
+        print('Not divisible by 3')
+    
+    #Condition 2
+    if n%2 != 0:
+        print('Odd')
+    else:
+        print('Even')
