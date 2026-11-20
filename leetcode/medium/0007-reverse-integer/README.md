@@ -10,6 +10,8 @@ Given a signed 32-bit integer `x`, return `x` *with its digits reversed*. If rev
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -43,9 +45,9 @@ Output: 21
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 12.94%)  
-**Memory:** 42 MB (beats 97.53%)  
-**Submitted:** 2026-10-25T17:28:01.448Z  
+**Runtime:** 2 ms (beats 34.37%)  
+**Memory:** 41.8 MB (beats 95.28%)  
+**Submitted:** 2026-11-20T05:23:29.168Z  
 
 ```java
 class Solution {
