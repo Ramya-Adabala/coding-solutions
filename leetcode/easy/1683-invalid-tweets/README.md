@@ -55,9 +55,9 @@ Tweet 2 has length = 33. It is an invalid tweet.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 564 ms (beats 95.03%)  
+**Runtime:** 552 ms (beats 93.83%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-09-15T11:17:15.957Z  
+**Submitted:** 2026-11-20T05:25:01.972Z  
 
 ```sql
 # Write your MySQL query statement below
