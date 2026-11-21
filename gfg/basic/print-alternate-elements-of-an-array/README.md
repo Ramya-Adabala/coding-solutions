@@ -1,4 +1,4 @@
-# Alternates in an Array
+# Alternates in Array
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Basic-red)
 
@@ -29,16 +29,12 @@ Skip fourth element: 4
 Take fifth element: 5
 ```
 
- **Constraints:** 
-1 <=  arr.size <= 105
-1 <= arr[i] <= 105
-
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T16:06:19.859Z  
+**Submitted:** 2026-11-21T00:16:24.969Z  
 
 ```java
 class Solution {
