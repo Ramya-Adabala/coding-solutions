@@ -42,9 +42,9 @@ The word `"sweet"` appears only in `s1`, while the word `"sour"` appears only in
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.3 MB  
-**Submitted:** 2026-11-21T00:16:10.220Z  
+**Runtime:** 2 ms (beats 99.91%)  
+**Memory:** 42.7 MB (beats 95.62%)  
+**Submitted:** 2026-11-21T00:16:45.103Z  
 
 ```java
 import java.util.*;
