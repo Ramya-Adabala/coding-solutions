@@ -58,8 +58,8 @@ Output: "ZY"
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.1 MB (beats 72.50%)  
-**Submitted:** 2026-11-16T11:07:40.782Z  
+**Memory:** 42.1 MB (beats 63.18%)  
+**Submitted:** 2026-11-24T00:01:51.881Z  
 
 ```java
 class Solution {
