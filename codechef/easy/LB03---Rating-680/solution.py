@@ -1,17 +1,13 @@
-#Solution as follows
+# Solution as follows
 
-X = 30
-if X%3 == 0:
-    print('Number of questions incorrectly solved is 0')
-elif (X+1)%3 == 0:
-    print('Number of questions incorrectly solved is 1')
-else:
-    print('Number of questions incorrectly solved is 2')
+t = int(input())            
+for i in range(t):          
+    X = int(input())
     
-X = 34
-if X%3 == 0:
-    print('Number of questions incorrectly solved is 0')
-elif (X+1)%3 == 0:
-    print('Number of questions incorrectly solved is 1')
-else:
-    print('Number of questions incorrectly solved is 2')
+    #Borrow the template from the sub-component, replace the relevant output
+    if X%3 == 0:        
+        print(0)        
+    elif (X+1)%3 == 0:
+        print(1)
+    else:
+        print(2)
