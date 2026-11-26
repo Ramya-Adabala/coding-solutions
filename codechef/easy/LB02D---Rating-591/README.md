@@ -20,7 +20,7 @@ Code it out in the IDE and click on  **Submit**  to continue.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T04:15:17.340Z  
+**Submitted:** 2026-11-26T00:15:23.421Z  
 
 ```py
 #Solution as follows
