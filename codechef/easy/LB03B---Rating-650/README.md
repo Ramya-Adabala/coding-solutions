@@ -38,7 +38,7 @@ Output
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T00:15:59.046Z  
+**Submitted:** 2026-11-26T00:16:02.825Z  
 
 ```cpp
 # Solution as follows
